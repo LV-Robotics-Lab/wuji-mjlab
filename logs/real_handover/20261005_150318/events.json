@@ -1,0 +1,22 @@
+[
+ [
+  0.0,
+  "HOLD (current pose frozen, press o to open)"
+ ],
+ [
+  3.05,
+  "HOLD (open: push the cube up into the hand, then g)"
+ ],
+ [
+  39.251,
+  "HOLD (training grasp: let go of the cube, then p)"
+ ],
+ [
+  47.65,
+  "POLICY start"
+ ],
+ [
+  65.35,
+  "HOLD (vision lost)"
+ ]
+]

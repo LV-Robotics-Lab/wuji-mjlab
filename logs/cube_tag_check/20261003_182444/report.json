@@ -1,0 +1,592 @@
+[
+  {
+    "frame": 0,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 1,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 2,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        21,
+        23,
+        20,
+        22
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      21,
+      23,
+      20,
+      22
+    ],
+    "pose_reproj_px": 0.4898991083633891,
+    "markers": [
+      {
+        "id": 21,
+        "slot": "FRONT-B",
+        "used": true,
+        "reproj_px": 0.3291932903101166
+      },
+      {
+        "id": 23,
+        "slot": "FRONT-R",
+        "used": true,
+        "reproj_px": 0.7276173594249898
+      },
+      {
+        "id": 20,
+        "slot": "FRONT-L",
+        "used": true,
+        "reproj_px": 0.3766221392642414
+      },
+      {
+        "id": 22,
+        "slot": "FRONT-T",
+        "used": true,
+        "reproj_px": 0.5261636444542107
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        1
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      1
+    ],
+    "pose_reproj_px": 0.15598290874872783,
+    "markers": [
+      {
+        "id": 1,
+        "slot": "TOP-L",
+        "used": true,
+        "reproj_px": 0.155982908748725
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 5,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 6,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 7,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 8,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        21
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      21
+    ],
+    "pose_reproj_px": 0.07275654508634316,
+    "markers": [
+      {
+        "id": 21,
+        "slot": "FRONT-B",
+        "used": true,
+        "reproj_px": 0.07275654508634316
+      }
+    ]
+  },
+  {
+    "frame": 9,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        2
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      2
+    ],
+    "pose_reproj_px": 0.3151604449680363,
+    "markers": [
+      {
+        "id": 2,
+        "slot": "TOP-R",
+        "used": true,
+        "reproj_px": 0.31516044496802087
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 11,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        15
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      15
+    ],
+    "pose_reproj_px": 0.12001037716519095,
+    "markers": [
+      {
+        "id": 15,
+        "slot": "LEFT-R",
+        "used": true,
+        "reproj_px": 0.12001037716518001
+      }
+    ]
+  },
+  {
+    "frame": 12,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        10,
+        11,
+        9
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      10,
+      11,
+      9
+    ],
+    "pose_reproj_px": 0.651039718047806,
+    "markers": [
+      {
+        "id": 10,
+        "slot": "BOTTOM-L",
+        "used": true,
+        "reproj_px": 0.5238705209441488
+      },
+      {
+        "id": 11,
+        "slot": "BOTTOM-T",
+        "used": true,
+        "reproj_px": 0.5491206583711419
+      },
+      {
+        "id": 9,
+        "slot": "BOTTOM-R",
+        "used": true,
+        "reproj_px": 0.8801279748281023
+      }
+    ]
+  },
+  {
+    "frame": 13,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        6,
+        7,
+        4,
+        5,
+        17,
+        18,
+        19
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      6,
+      7,
+      4,
+      5,
+      17,
+      18,
+      19
+    ],
+    "pose_reproj_px": 0.8976522036791802,
+    "markers": [
+      {
+        "id": 6,
+        "slot": "RIGHT-B",
+        "used": true,
+        "reproj_px": 0.8057826054125475
+      },
+      {
+        "id": 7,
+        "slot": "RIGHT-L",
+        "used": true,
+        "reproj_px": 0.5703603023678312
+      },
+      {
+        "id": 4,
+        "slot": "RIGHT-R",
+        "used": true,
+        "reproj_px": 0.8601657794259769
+      },
+      {
+        "id": 5,
+        "slot": "RIGHT-T",
+        "used": true,
+        "reproj_px": 0.8737154502498032
+      },
+      {
+        "id": 17,
+        "slot": "BACK-B",
+        "used": true,
+        "reproj_px": 1.4108436007874847
+      },
+      {
+        "id": 18,
+        "slot": "BACK-T",
+        "used": true,
+        "reproj_px": 0.8913357829701342
+      },
+      {
+        "id": 19,
+        "slot": "BACK-R",
+        "used": true,
+        "reproj_px": 0.8713619045404849
+      }
+    ]
+  },
+  {
+    "frame": 14,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        3
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      3
+    ],
+    "pose_reproj_px": 0.19682239554130074,
+    "markers": [
+      {
+        "id": 3,
+        "slot": "TOP-B",
+        "used": true,
+        "reproj_px": 0.1968223955413131
+      }
+    ]
+  },
+  {
+    "frame": 15,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        3,
+        1,
+        22,
+        2,
+        20,
+        0,
+        7
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      3,
+      1,
+      22,
+      2,
+      20,
+      0,
+      7
+    ],
+    "pose_reproj_px": 0.6677824720531301,
+    "markers": [
+      {
+        "id": 3,
+        "slot": "TOP-B",
+        "used": true,
+        "reproj_px": 0.6498171662506326
+      },
+      {
+        "id": 1,
+        "slot": "TOP-L",
+        "used": true,
+        "reproj_px": 0.40046431545339
+      },
+      {
+        "id": 22,
+        "slot": "FRONT-T",
+        "used": true,
+        "reproj_px": 0.5860424936236006
+      },
+      {
+        "id": 2,
+        "slot": "TOP-R",
+        "used": true,
+        "reproj_px": 0.688473880461444
+      },
+      {
+        "id": 20,
+        "slot": "FRONT-L",
+        "used": true,
+        "reproj_px": 0.48828561752998595
+      },
+      {
+        "id": 0,
+        "slot": "TOP-T",
+        "used": true,
+        "reproj_px": 1.136002656839994
+      },
+      {
+        "id": 7,
+        "slot": "RIGHT-L",
+        "used": true,
+        "reproj_px": 0.7253911742129087
+      }
+    ]
+  },
+  {
+    "frame": 16,
+    "ids_by_family": {
+      "aruco4x4_50": [],
+      "tag36h11": []
+    },
+    "pose_found": false,
+    "pose_ids": [],
+    "pose_reproj_px": null,
+    "markers": []
+  },
+  {
+    "frame": 17,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        19,
+        18,
+        17,
+        16,
+        13,
+        12
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      19,
+      18,
+      17,
+      16,
+      13,
+      12
+    ],
+    "pose_reproj_px": 0.6624576759272043,
+    "markers": [
+      {
+        "id": 19,
+        "slot": "BACK-R",
+        "used": true,
+        "reproj_px": 0.46549227953333905
+      },
+      {
+        "id": 18,
+        "slot": "BACK-T",
+        "used": true,
+        "reproj_px": 0.8594493439599638
+      },
+      {
+        "id": 17,
+        "slot": "BACK-B",
+        "used": true,
+        "reproj_px": 0.8285243629862552
+      },
+      {
+        "id": 16,
+        "slot": "BACK-L",
+        "used": true,
+        "reproj_px": 0.5873373656378819
+      },
+      {
+        "id": 13,
+        "slot": "LEFT-B",
+        "used": true,
+        "reproj_px": 0.6242498549759669
+      },
+      {
+        "id": 12,
+        "slot": "LEFT-L",
+        "used": true,
+        "reproj_px": 0.6096928484698478
+      }
+    ]
+  },
+  {
+    "frame": 18,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        4,
+        6
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      4,
+      6
+    ],
+    "pose_reproj_px": 0.39966362810982936,
+    "markers": [
+      {
+        "id": 4,
+        "slot": "RIGHT-R",
+        "used": true,
+        "reproj_px": 0.45952745362615854
+      },
+      {
+        "id": 6,
+        "slot": "RIGHT-B",
+        "used": true,
+        "reproj_px": 0.3397998025934749
+      }
+    ]
+  },
+  {
+    "frame": 19,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        8,
+        10,
+        12,
+        13
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      8,
+      10,
+      12,
+      13
+    ],
+    "pose_reproj_px": 0.6887912267400591,
+    "markers": [
+      {
+        "id": 8,
+        "slot": "BOTTOM-B",
+        "used": true,
+        "reproj_px": 0.7067991266190409
+      },
+      {
+        "id": 10,
+        "slot": "BOTTOM-L",
+        "used": true,
+        "reproj_px": 0.7220092617511995
+      },
+      {
+        "id": 12,
+        "slot": "LEFT-L",
+        "used": true,
+        "reproj_px": 0.8618998591931593
+      },
+      {
+        "id": 13,
+        "slot": "LEFT-B",
+        "used": true,
+        "reproj_px": 0.464456659396811
+      }
+    ]
+  },
+  {
+    "frame": 20,
+    "ids_by_family": {
+      "aruco4x4_50": [
+        23,
+        22
+      ],
+      "tag36h11": []
+    },
+    "pose_found": true,
+    "pose_ids": [
+      23,
+      22
+    ],
+    "pose_reproj_px": 1.0456782817818335,
+    "markers": [
+      {
+        "id": 23,
+        "slot": "FRONT-R",
+        "used": true,
+        "reproj_px": 1.454610579132475
+      },
+      {
+        "id": 22,
+        "slot": "FRONT-T",
+        "used": true,
+        "reproj_px": 0.6367459844311775
+      }
+    ]
+  }
+]

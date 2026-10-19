@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Any, Callable
+from typing import TYPE_CHECKING
 
 import torch
 from mjlab.entity import Entity
@@ -13,6 +13,9 @@ from mjlab.utils.lab_api.math import quat_error_magnitude, quat_mul
 from wuji_mjlab.tasks.reorient.mdp.command_visualization import (
   ReorientCommandVisualization,
 )
+from wuji_mjlab.tasks.reorient.reorient_constants import (
+  TAG_IN_PALM_QUAT_WXYZ as _TAG_IN_PALM_QUAT_WXYZ,
+)
 from wuji_mjlab.utils.math import random_quat_uniform
 
 if TYPE_CHECKING:
@@ -20,6 +23,8 @@ if TYPE_CHECKING:
 
 
 class InHandReorientCommand(CommandTerm):
+  """SO(3) reorientation command with hold-and-advance goal progression."""
+
   cfg: InHandReorientCommandCfg
 
   def __init__(self, cfg: InHandReorientCommandCfg, env):
@@ -34,14 +39,6 @@ class InHandReorientCommand(CommandTerm):
       )
     self.palm_body_id = int(palm_ids[0])
 
-    tag_ids, _ = self.robot.find_sites(cfg.tag_site_pattern)
-    if not tag_ids:
-      raise ValueError(
-        f"InHandReorientCommand: no tag site matched '{cfg.tag_site_pattern}' "
-        f"on entity '{cfg.robot_entity_name}'."
-      )
-    self.tag_site_id = int(tag_ids[0])
-
     self.goal_quat_w = torch.zeros(self.num_envs, 4, device=self.device)
     self.goal_quat_w[:, 0] = 1.0
 
@@ -53,6 +50,7 @@ class InHandReorientCommand(CommandTerm):
       self.num_envs, dtype=torch.int32, device=self.device
     )
 
+    # Two-phase state machine
     self.in_success_window = torch.zeros(
       self.num_envs, dtype=torch.bool, device=self.device
     )
@@ -60,10 +58,16 @@ class InHandReorientCommand(CommandTerm):
       self.num_envs, dtype=torch.int32, device=self.device
     )
 
+    # Pre-reset snapshot of window_timer for reward computation
     self._reward_window_timer = torch.zeros(
       self.num_envs, dtype=torch.int32, device=self.device
     )
+    # Keep the reward-side success-window state across a goal-switch reset.
+    self._reward_in_success_window = torch.zeros(
+      self.num_envs, dtype=torch.bool, device=self.device
+    )
 
+    # Reward hold counter: only increments when in_success_window AND within_threshold
     self.reward_hold_counter = torch.zeros(
       self.num_envs, dtype=torch.int32, device=self.device
     )
@@ -71,6 +75,7 @@ class InHandReorientCommand(CommandTerm):
       self.num_envs, dtype=torch.int32, device=self.device
     )
 
+    # One-shot event flags (overwritten every step in _update_command)
     self._success_achieved = torch.zeros(
       self.num_envs, dtype=torch.bool, device=self.device
     )
@@ -116,11 +121,35 @@ class InHandReorientCommand(CommandTerm):
 
     Goal is drawn uniformly on SO(3) in tag frame to match deploy semantics
     (the deploy side samples goal_quat directly in tag frame without any
-    wrist transform).
+    wrist transform), then composed to world via palm->tag->world:
+    tag_quat_w = palm_quat_w * tag_in_palm, then
+    goal_quat_w = tag_quat_w * tag_rel_goal.
     """
     n = len(env_ids)
+    if self.cfg.max_goal_angle_rad is not None:
+      axis = torch.randn(n, 3, device=self.device)
+      axis = axis / axis.norm(dim=-1, keepdim=True).clamp_min(1.0e-6)
+      angle = self.cfg.min_goal_angle_rad + (
+        self.cfg.max_goal_angle_rad - self.cfg.min_goal_angle_rad
+      ) * torch.rand(n, device=self.device)
+      half_angle = 0.5 * angle
+      relative_goal = torch.cat(
+        (half_angle.cos().unsqueeze(-1), axis * half_angle.sin().unsqueeze(-1)),
+        dim=-1,
+      )
+      # Command reset runs after the object reset event but before sim.forward().
+      # qpos already contains the new orientation; xquat is still stale here.
+      current_quat = self.object.data.data.qpos[env_ids][
+        :, self.object.data.indexing.free_joint_q_adr[3:7]
+      ]
+      self.goal_quat_w[env_ids] = quat_mul(current_quat, relative_goal)
+      return
     tag_rel_goal = random_quat_uniform(n, self.device)
-    tag_quat_w = self.robot.data.site_pose_w[env_ids, self.tag_site_id, 3:7]
+    palm_quat_w = self.robot.data.body_link_pose_w[env_ids, self.palm_body_id, 3:7]
+    tag_in_palm = torch.tensor(
+      _TAG_IN_PALM_QUAT_WXYZ, device=self.device, dtype=palm_quat_w.dtype
+    ).expand(n, 4)
+    tag_quat_w = quat_mul(palm_quat_w, tag_in_palm)
     self.goal_quat_w[env_ids] = quat_mul(tag_quat_w, tag_rel_goal)
 
   def _resample_command(self, env_ids: torch.Tensor) -> None:
@@ -131,6 +160,7 @@ class InHandReorientCommand(CommandTerm):
     self.in_success_window[env_ids] = False
     self.window_timer[env_ids] = 0
     self._reward_window_timer[env_ids] = 0
+    self._reward_in_success_window[env_ids] = False
     self.reward_hold_counter[env_ids] = 0
     self._reward_hold_counter_snapshot[env_ids] = 0
     self._success_achieved[env_ids] = False
@@ -140,44 +170,43 @@ class InHandReorientCommand(CommandTerm):
   def _min_goal_steps(self) -> int:
     return max(int(self.cfg.min_goal_interval / self._env.step_dt), 0)
 
-  def _update_command(self, env_ids: torch.Tensor | None = None) -> None:
-    selected = slice(None) if env_ids is None else env_ids
-    goal_timer = self.goal_timer[selected] + 1
-    ori_err = quat_error_magnitude(
-      self.object.data.root_link_quat_w[selected], self.goal_quat_w[selected]
-    )
+  def _update_command(self) -> None:
+    goal_timer = self.goal_timer + 1
+    ori_err = quat_error_magnitude(self.object.data.root_link_quat_w, self.goal_quat_w)
     within_threshold = ori_err < self.cfg.success_threshold
 
-    approaching_mask = ~self.in_success_window[selected]
-    hold_counter = self.hold_counter[selected]
+    # APPROACHING phase
+    approaching_mask = ~self.in_success_window
+
     hold_counter = torch.where(
       approaching_mask & within_threshold,
-      hold_counter + 1,
-      torch.where(approaching_mask, torch.zeros_like(hold_counter), hold_counter),
+      self.hold_counter + 1,
+      torch.where(
+        approaching_mask, torch.zeros_like(self.hold_counter), self.hold_counter
+      ),
     )
 
     just_succeeded = approaching_mask & (hold_counter >= self.cfg.success_hold_steps)
 
-    in_success_window = self.in_success_window[selected] | just_succeeded
-    window_timer = self.window_timer[selected]
+    in_success_window = self.in_success_window | just_succeeded
     window_timer = torch.where(
-      just_succeeded, torch.zeros_like(window_timer), window_timer
+      just_succeeded, torch.zeros_like(self.window_timer), self.window_timer
     )
     hold_counter = torch.where(
       just_succeeded, torch.zeros_like(hold_counter), hold_counter
     )
-    self.goal_reach_count[selected] += just_succeeded.long()
+    self.goal_reach_count += just_succeeded.long()
 
-    self._success_achieved[selected] = just_succeeded
+    self._success_achieved = just_succeeded
 
+    # SUCCESS_WINDOW phase
     window_mask = in_success_window
     window_timer = torch.where(window_mask, window_timer + 1, window_timer)
 
-    reward_hold_counter = self.reward_hold_counter[selected]
     reward_hold_counter = torch.where(
       window_mask & within_threshold,
-      reward_hold_counter + 1,
-      reward_hold_counter,
+      self.reward_hold_counter + 1,
+      self.reward_hold_counter,
     )
     reward_hold_counter = torch.where(
       just_succeeded, torch.zeros_like(reward_hold_counter), reward_hold_counter
@@ -191,15 +220,14 @@ class InHandReorientCommand(CommandTerm):
     )
 
     advance_ids = should_switch.nonzero(as_tuple=False).squeeze(-1)
-    if env_ids is not None:
-      advance_ids = env_ids[advance_ids]
     if advance_ids.numel() > 0:
       self._sample_goal_in_world(advance_ids)
 
-    self._goal_switched[selected] = should_switch
+    self._goal_switched = should_switch
 
-    self._reward_window_timer[selected] = window_timer
-    self._reward_hold_counter_snapshot[selected] = reward_hold_counter
+    self._reward_window_timer = window_timer.clone()
+    self._reward_in_success_window = in_success_window.clone()
+    self._reward_hold_counter_snapshot = reward_hold_counter.clone()
 
     in_success_window = torch.where(
       should_switch, torch.zeros_like(in_success_window), in_success_window
@@ -215,20 +243,19 @@ class InHandReorientCommand(CommandTerm):
       should_switch, torch.zeros_like(reward_hold_counter), reward_hold_counter
     )
 
-    self._within_threshold[selected] = within_threshold
+    self._within_threshold = within_threshold
 
-    self.hold_counter[selected] = hold_counter
-    self.goal_timer[selected] = goal_timer
-    self.in_success_window[selected] = in_success_window
-    self.window_timer[selected] = window_timer
-    self.reward_hold_counter[selected] = reward_hold_counter
+    self.hold_counter = hold_counter
+    self.goal_timer = goal_timer
+    self.in_success_window = in_success_window
+    self.window_timer = window_timer
+    self.reward_hold_counter = reward_hold_counter
 
   def _debug_vis_impl(self, visualizer) -> None:
     self._visualization.draw_debug_visuals(
       visualizer=visualizer,
       num_envs=self.num_envs,
       palm_pose_w=self.robot.data.body_link_pose_w[:, self.palm_body_id, :],
-      tag_pose_w=self.robot.data.site_pose_w[:, self.tag_site_id, :],
       object_pos_w=self.object.data.root_link_pos_w,
       goal_quat_w=self.goal_quat_w,
       policy_status_for_env=self._policy_status_for_env,
@@ -239,10 +266,7 @@ class InHandReorientCommand(CommandTerm):
     name: str,
     server: "viser.ViserServer",
     get_env_idx,
-    on_change: Callable[[], None] | None = None,
-    request_action: Callable[[str, Any], None] | None = None,
   ) -> None:
-    # This panel only displays status; mjlab's editing callbacks are unused.
     self._visualization.create_gui(
       name=name,
       server=server,
@@ -265,22 +289,32 @@ class InHandReorientCommand(CommandTerm):
 
   @property
   def within_threshold(self) -> torch.Tensor:
+    """Instantaneous: ori_err < success_threshold this step."""
     return self._within_threshold
 
   @property
   def success_achieved(self) -> torch.Tensor:
+    """One-shot: True only on the step hold_counter first reaches success_hold_steps."""
     return self._success_achieved
 
   @property
   def goal_switched(self) -> torch.Tensor:
+    """One-shot: True only on the step the goal switches."""
     return self._goal_switched
 
   @property
   def reward_window_timer(self) -> torch.Tensor:
+    """Window timer value before goal-switch reset, for reward computation."""
     return self._reward_window_timer
 
   @property
+  def reward_in_success_window(self) -> torch.Tensor:
+    """Success-window state before any goal-switch reset this step."""
+    return self._reward_in_success_window
+
+  @property
   def reward_hold_counter_snapshot(self) -> torch.Tensor:
+    """Hold counter for reward scaling (pre-reset snapshot). Only increments when within_threshold."""
     return self._reward_hold_counter_snapshot
 
 
@@ -294,7 +328,8 @@ class InHandReorientCommandCfg(CommandTermCfg):
   debug_vis: bool = False
   robot_entity_name: str = "robot"
   palm_body_pattern: str = ".*_palm_link"
-  tag_site_pattern: str = ".*_wrist_tag"
+  min_goal_angle_rad: float = 0.4
+  max_goal_angle_rad: float | None = None
 
   def build(self, env) -> InHandReorientCommand:
     return InHandReorientCommand(self, env)

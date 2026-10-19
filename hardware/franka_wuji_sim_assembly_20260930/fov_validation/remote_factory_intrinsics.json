@@ -1,0 +1,1892 @@
+{
+  "devices": [
+    {
+      "name": "RealSense D405",
+      "serial": "260322272638",
+      "physical_port": "/sys/devices/pci0000:00/0000:00:08.1/0000:09:00.3/usb4/4-1/4-1.4/4-1.4.3/4-1.4.3.4/4-1.4.3.4:1.0/video4linux/video14",
+      "profiles": [
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 653.8585205078125,
+          "fy": 652.3822631835938,
+          "cx": 644.54736328125,
+          "cy": 367.012939453125,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.77091979980469,
+            57.776981353759766
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 653.8585205078125,
+          "fy": 652.3822631835938,
+          "cx": 644.54736328125,
+          "cy": 367.012939453125,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.77091979980469,
+            57.776981353759766
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 653.8585205078125,
+          "fy": 652.3822631835938,
+          "cx": 644.54736328125,
+          "cy": 367.012939453125,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.77091979980469,
+            57.776981353759766
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 653.8585205078125,
+          "fy": 652.3822631835938,
+          "cx": 644.54736328125,
+          "cy": 367.012939453125,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.77091979980469,
+            57.776981353759766
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 653.8585205078125,
+          "fy": 652.3822631835938,
+          "cx": 644.54736328125,
+          "cy": 367.012939453125,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.77091979980469,
+            57.776981353759766
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 427.03155517578125,
+          "cy": 244.67529296875,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.41160583496094,
+            57.77664566040039
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 427.03155517578125,
+          "cy": 244.67529296875,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.41160583496094,
+            57.77664566040039
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 427.03155517578125,
+          "cy": 244.67529296875,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.41160583496094,
+            57.77664566040039
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 427.03155517578125,
+          "cy": 244.67529296875,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.41160583496094,
+            57.77664566040039
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 427.03155517578125,
+          "cy": 244.67529296875,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            88.41160583496094,
+            57.77664566040039
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.3367614746094,
+          "fy": 392.4486999511719,
+          "cx": 322.73553466796875,
+          "cy": 244.21871948242188,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            78.25802612304688,
+            62.889949798583984
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.3367614746094,
+          "fy": 392.4486999511719,
+          "cx": 322.73553466796875,
+          "cy": 244.21871948242188,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            78.25802612304688,
+            62.889949798583984
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.3367614746094,
+          "fy": 392.4486999511719,
+          "cx": 322.73553466796875,
+          "cy": 244.21871948242188,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            78.25802612304688,
+            62.889949798583984
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.3367614746094,
+          "fy": 392.4486999511719,
+          "cx": 322.73553466796875,
+          "cy": 244.21871948242188,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            78.25802612304688,
+            62.889949798583984
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.3367614746094,
+          "fy": 392.4486999511719,
+          "cx": 322.73553466796875,
+          "cy": 244.21871948242188,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ],
+          "fov_deg": [
+            78.25802612304688,
+            62.889949798583984
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 657.651123046875,
+          "fy": 657.651123046875,
+          "cx": 646.6787719726562,
+          "cy": 359.5458984375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.43788146972656,
+            57.39282989501953
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 435.69384765625,
+          "fy": 435.69384765625,
+          "cx": 428.4246826171875,
+          "cy": 239.69915771484375,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            88.4376220703125,
+            57.69594192504883
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.1255798339844,
+          "fy": 393.1255798339844,
+          "cx": 323.9924011230469,
+          "cy": 239.72854614257812,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            78.2860336303711,
+            62.80744934082031
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RealSense D405",
+      "serial": "260322279772",
+      "physical_port": "/sys/devices/pci0000:00/0000:00:08.1/0000:09:00.3/usb4/4-3/4-3.2/4-3.2:1.0/video4linux/video0",
+      "profiles": [
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.uyvy",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 1,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.infrared",
+          "index": 2,
+          "format": "format.y8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 654.6441650390625,
+          "fy": 653.1213989257812,
+          "cx": 645.5999755859375,
+          "cy": 365.4371032714844,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.70133209228516,
+            57.72396469116211
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 654.6441650390625,
+          "fy": 653.1213989257812,
+          "cx": 645.5999755859375,
+          "cy": 365.4371032714844,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.70133209228516,
+            57.72396469116211
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 654.6441650390625,
+          "fy": 653.1213989257812,
+          "cx": 645.5999755859375,
+          "cy": 365.4371032714844,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.70133209228516,
+            57.72396469116211
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 654.6441650390625,
+          "fy": 653.1213989257812,
+          "cx": 645.5999755859375,
+          "cy": 365.4371032714844,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.70133209228516,
+            57.72396469116211
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 654.6441650390625,
+          "fy": 653.1213989257812,
+          "cx": 645.5999755859375,
+          "cy": 365.4371032714844,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.70133209228516,
+            57.72396469116211
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 436.429443359375,
+          "fy": 435.4142761230469,
+          "cx": 427.7333068847656,
+          "cy": 243.62474060058594,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.34199523925781,
+            57.72370529174805
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 436.429443359375,
+          "fy": 435.4142761230469,
+          "cx": 427.7333068847656,
+          "cy": 243.62474060058594,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.34199523925781,
+            57.72370529174805
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 436.429443359375,
+          "fy": 435.4142761230469,
+          "cx": 427.7333068847656,
+          "cy": 243.62474060058594,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.34199523925781,
+            57.72370529174805
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 436.429443359375,
+          "fy": 435.4142761230469,
+          "cx": 427.7333068847656,
+          "cy": 243.62474060058594,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.34199523925781,
+            57.72370529174805
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 436.429443359375,
+          "fy": 435.4142761230469,
+          "cx": 427.7333068847656,
+          "cy": 243.62474060058594,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            88.34199523925781,
+            57.72370529174805
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgb8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.80938720703125,
+          "fy": 392.8933410644531,
+          "cx": 323.3687438964844,
+          "cy": 243.27078247070312,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            78.189697265625,
+            62.834163665771484
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgra8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.80938720703125,
+          "fy": 392.8933410644531,
+          "cx": 323.3687438964844,
+          "cy": 243.27078247070312,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            78.189697265625,
+            62.834163665771484
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.rgba8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.80938720703125,
+          "fy": 392.8933410644531,
+          "cx": 323.3687438964844,
+          "cy": 243.27078247070312,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            78.189697265625,
+            62.834163665771484
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.bgr8",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.80938720703125,
+          "fy": 392.8933410644531,
+          "cx": 323.3687438964844,
+          "cy": 243.27078247070312,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            78.189697265625,
+            62.834163665771484
+          ]
+        },
+        {
+          "stream": "stream.color",
+          "index": 0,
+          "format": "format.yuyv",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 393.80938720703125,
+          "fy": 392.8933410644531,
+          "cx": 323.3687438964844,
+          "cy": 243.27078247070312,
+          "distortion_model": "distortion.inverse_brown_conrady",
+          "coeffs": [
+            -0.05404724180698395,
+            0.05664066970348358,
+            0.00029429441201500595,
+            0.0007747837225906551,
+            -0.018456272780895233
+          ],
+          "fov_deg": [
+            78.189697265625,
+            62.834163665771484
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 1280,
+          "height": 720,
+          "fx": 648.80908203125,
+          "fy": 648.80908203125,
+          "cx": 643.3629150390625,
+          "cy": 366.9363708496094,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21574401855469,
+            58.043643951416016
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 848,
+          "height": 480,
+          "fx": 429.8360290527344,
+          "fy": 429.8360290527344,
+          "cx": 426.2279052734375,
+          "cy": 244.59535217285156,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            89.21560668945312,
+            58.34860610961914
+          ]
+        },
+        {
+          "stream": "stream.depth",
+          "index": 0,
+          "format": "format.z16",
+          "fps": 30,
+          "width": 640,
+          "height": 480,
+          "fx": 387.840087890625,
+          "fy": 387.840087890625,
+          "cx": 322.01025390625,
+          "cy": 244.14637756347656,
+          "distortion_model": "distortion.brown_conrady",
+          "coeffs": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fov_deg": [
+            79.04947662353516,
+            63.49409484863281
+          ]
+        }
+      ]
+    }
+  ],
+  "right_arm_reference_serial": "260322272638",
+  "access": "Factory video profile intrinsics only; no streaming or robot commands"
+}

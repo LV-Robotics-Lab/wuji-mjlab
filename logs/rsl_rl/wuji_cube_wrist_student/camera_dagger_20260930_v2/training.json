@@ -1,0 +1,82 @@
+{
+  "seed": 9511,
+  "rounds": [
+    {
+      "round": 0,
+      "teacher_action_probability": 0.5,
+      "aggregated_samples": 5825,
+      "dropped_episodes": 0,
+      "fresh_fraction": 0.8265625,
+      "usable_fraction": 0.91015625,
+      "last_training_loss": 0.028529608622193336,
+      "elapsed_s": 574.1159344210173
+    },
+    {
+      "round": 1,
+      "teacher_action_probability": 0.2,
+      "aggregated_samples": 12028,
+      "dropped_episodes": 0,
+      "fresh_fraction": 0.88296875,
+      "usable_fraction": 0.96921875,
+      "last_training_loss": 0.03363257274031639,
+      "elapsed_s": 1123.8100841509877
+    },
+    {
+      "round": 2,
+      "teacher_action_probability": 0.0,
+      "aggregated_samples": 17356,
+      "dropped_episodes": 1,
+      "fresh_fraction": 0.7536419553253481,
+      "usable_fraction": 0.8624150210424085,
+      "last_training_loss": 0.03784129023551941,
+      "elapsed_s": 1653.7166815600358
+    }
+  ],
+  "student_input": "207D camera pose + encoders + known commands/actions",
+  "teacher_privilege": "Training labels and teacher-mixed collection actions only; evaluation is student only",
+  "camera_mount": {
+    "source_scene": "/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/scene.xml",
+    "source_palm_to_connector_pos_m": [
+      -0.04292769999999999,
+      -0.00023384999999999994,
+      -0.04499999999999999
+    ],
+    "source_palm_to_connector_rotation": [
+      [
+        0.0,
+        0.0,
+        0.9999999999999998
+      ],
+      [
+        0.0,
+        -0.9999999999999998,
+        0.0
+      ],
+      [
+        0.9999999999999998,
+        0.0,
+        0.0
+      ]
+    ],
+    "hand_model": "Use canonical trained hand, not source assembly hand (different inertias).",
+    "camera": "D405 intrinsics preserved; optical pitch set for the fixed palm-down mount and backed off along optical axis.",
+    "camera_pitch_deg": 6.0,
+    "pitch_reference": "Optical elevation in the fixed R_y(+90) palm-down world",
+    "camera_backoff_mm": 40.0,
+    "original_camera_pos_connector_m": [
+      0.0290688,
+      0.0,
+      0.096478
+    ],
+    "camera_delta_connector_m": [
+      -0.03978087581473092,
+      0.0,
+      0.004181138530706129
+    ],
+    "camera_pos_connector_m": [
+      -0.010712075814730923,
+      0.0,
+      0.10065913853070613
+    ]
+  }
+}

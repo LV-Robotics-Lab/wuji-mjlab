@@ -1,0 +1,24 @@
+工控机工程版本：真实RGB640x480、法兰手侧、6度、无额外回退
+
+工程目录：/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003
+独立版本目录，不覆盖工控机现有项目；包中不含SSH密码、虚拟环境、Git凭据或训练中间checkpoint。
+包含训练/仿真源码、现有deploy接口、关键teacher/student、出厂标定、方块模型/贴纸、装配图片及完整demo。
+
+先运行只读检查（不发送电机命令）：
+cd /home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003
+/home/gmlab/workspace/PrometheusV4/.venv/bin/python deploy/wrist_student/check_release.py --query-camera
+
+CPU推理：release_models/policy.jit（Python torch.jit.load，207维输入/20维原始动作）。
+ONNX：release_models/policy.onnx；归一化已内嵌，勿重复归一化。
+动作映射、关节顺序/限位、相机变换：release_models/policy_config.json。
+207维观测参考：src/wuji_mjlab/perception/cube_wrist.py 中 SensorHistory。
+RGB序列号260322272638，640x480@30fps。factory原始畸变需要正确处理，不能把原图当成无畸变针孔画面。
+
+仿真/训练源码要求Python>=3.11及pixi.toml对应依赖；现有Prometheus Python3.10只用于独立推理/相机检查。
+当前工控机缺少wujihandpy/wuji_sdk和AprilTag检测依赖，需要独立配置部署环境。
+遥操作预抓握 -> 保持 -> 视觉有效 -> 平滑策略接管的电机桥接尚未完成；本检查不表示已可驱动真机。
+遥操作接管需用实测关节、已发送目标、历史动作初始化，不能直接执行默认仿真reset/home。
+
+演示：hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/official_dual_view.mp4
+装配：hardware/franka_wuji_sim_assembly_20260930/final_rgb640_assembly/assembly.png
+仿真基准：真实VGA内参下58/64目标成功，15/16存活；不是实机成功率。

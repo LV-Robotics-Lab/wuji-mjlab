@@ -1,0 +1,2 @@
+[mjlab.tasks]
+wuji_mjlab = wuji_mjlab.tasks

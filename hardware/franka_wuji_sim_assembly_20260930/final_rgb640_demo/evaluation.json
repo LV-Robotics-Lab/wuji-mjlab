@@ -1,0 +1,135 @@
+{
+  "student": "/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/logs/rsl_rl/wuji_cube_wrist_student/camera_dagger_20260930_v2/student.pt",
+  "control_source": "207D student: camera AprilTag object pose, encoder joint angles, command target and action history; no object truth or privileged physical parameters in actor input.",
+  "hand": "Official Wuji Hand 1 right_mjlab.xml",
+  "camera_mount": {
+    "source_scene": "/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/scene.xml",
+    "source_palm_to_connector_pos_m": [
+      -0.04292769999999999,
+      -0.00023384999999999994,
+      -0.04499999999999999
+    ],
+    "source_palm_to_connector_rotation": [
+      [
+        0.0,
+        0.0,
+        0.9999999999999998
+      ],
+      [
+        0.0,
+        -0.9999999999999998,
+        0.0
+      ],
+      [
+        0.9999999999999998,
+        0.0,
+        0.0
+      ]
+    ],
+    "hand_model": "Use canonical trained hand, not source assembly hand (different inertias).",
+    "camera": "D405 intrinsics preserved; optical pitch set for the fixed palm-down mount and backed off along optical axis.",
+    "camera_mount_reference": "Source assembly hand-side bracket; no additional backoff by default",
+    "camera_intrinsics_source": "/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/src/wuji_mjlab/assets/robots/wuji_hand/meshes/wrist_assembly/camera_calibration.json",
+    "camera_pitch_deg": 6.0,
+    "pitch_reference": "Optical elevation in the fixed R_y(+90) palm-down world",
+    "camera_backoff_mm": 0.0,
+    "original_camera_pos_connector_m": [
+      0.0290688,
+      0.0,
+      0.096478
+    ],
+    "camera_delta_connector_m": [
+      -0.0,
+      0.0,
+      0.0
+    ],
+    "camera_pos_connector_m": [
+      0.0290688,
+      0.0,
+      0.096478
+    ]
+  },
+  "camera_calibration": {
+    "profile": "factory-vga",
+    "projection_source": "Live SDK factory RGB intrinsics, serial 260322272638; pinhole simulation without raw image distortion",
+    "resolution": [
+      640,
+      480
+    ],
+    "centered_fov_deg": [
+      78.26031019352962,
+      62.89531632782771
+    ],
+    "K": [
+      [
+        393.3367614746094,
+        0.0,
+        322.73553466796875
+      ],
+      [
+        0.0,
+        392.4486999511719,
+        244.21871948242188
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_to_tag_rotation": [
+      [
+        2.567390744445674e-16,
+        -0.1045284632676533,
+        -0.9945218953682734
+      ],
+      [
+        -1.0,
+        -2.940356291780688e-16,
+        -2.1510571102112408e-16
+      ],
+      [
+        -2.610758831345095e-16,
+        0.9945218953682734,
+        -0.1045284632676533
+      ]
+    ],
+    "camera_origin_tag_m": [
+      -0.04136332189536827,
+      -0.00023385000000000015,
+      0.02724577153673233
+    ]
+  },
+  "goal_protocol": "Externally sampled full-SO(3) absolute targets; fixed 8s windows; true angular error<0.2rad for 5 consecutive control steps. Remaining scheduled windows after a drop count as failures.",
+  "scoring_only": "Object ground truth and termination are used only for scoring/physics. Automatic truth-based goal advancement disabled.",
+  "trials": [
+    {
+      "trial": 0,
+      "duration_s": 32.0,
+      "survived": true,
+      "scheduled_goal_windows": 4,
+      "scored_goal_successes": 4,
+      "goal_window_successes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "fresh_fraction": 0.8359375,
+      "usable_fraction": 0.8734375,
+      "hold_fraction": 0.1265625,
+      "longest_no_fresh_s": 3.95,
+      "rejected_visual_jumps": 0
+    }
+  ],
+  "trial_count": 1,
+  "horizon_s": 32,
+  "survived_trials": 1,
+  "survival_rate": 1.0,
+  "goal_successes": 4,
+  "goal_attempts": 4,
+  "goal_success_rate": 1.0,
+  "elapsed_wall_s": 16.164208539004903,
+  "seed": 7400,
+  "real_hardware_test": false
+}

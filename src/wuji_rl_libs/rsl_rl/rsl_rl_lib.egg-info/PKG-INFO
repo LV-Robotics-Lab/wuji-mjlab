@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: rsl-rl-lib
+Version: 5.0.1+wuji1
+Summary: Vendored rsl-rl with min_std clamp support
+Requires-Python: >=3.10
+License-File: LICENSE
+Dynamic: license-file

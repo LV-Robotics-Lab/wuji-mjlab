@@ -1,0 +1,2248 @@
+{
+  "created_utc": "2026-10-03T08:08:38.222432+00:00",
+  "remote_root": "/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003",
+  "source_root": "/home/nus/workspace/wuji_RL/wuji-mjlab",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "dca3048f91607e299c8a32eee08db3cd75ff59e00838618e2903e265c7bd2d65",
+      "bytes": 805
+    },
+    {
+      "path": "DEPLOY_ON_GMLAB.zh-CN.txt",
+      "sha256": "4be52d33fc0d6e8df32bc9f13fc9344c8495c4bef82cdb9b8878c0e43a0f214f",
+      "bytes": 1900
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "7b127e355b573187c40dd99dac59536f350a0c11c5bfccc886483604a4004500",
+      "bytes": 11355
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "0a7b79ca85b60a7d0a1b2eef1465e13476c50db7018548019541cd9013fe6e37",
+      "bytes": 692
+    },
+    {
+      "path": "README.md",
+      "sha256": "e597caca5431ab2b20d4c38fe810ae034cb0433cc93e75c301f8309141395095",
+      "bytes": 5477
+    },
+    {
+      "path": "deploy/__init__.py",
+      "sha256": "45305920540a307763b14180c610a0a3c06f8fe9c6bfa02ce46889ea11ab5538",
+      "bytes": 81
+    },
+    {
+      "path": "deploy/reorient/README.md",
+      "sha256": "6427db8fa2432842c28f75992d99ef04fa89968d23c14a054745f161bd8d4aaf",
+      "bytes": 3471
+    },
+    {
+      "path": "deploy/reorient/README_zh.md",
+      "sha256": "cac43972e5e5baf33b94cee5351c8868a518b54660166fc93d322384563fefb4",
+      "bytes": 3538
+    },
+    {
+      "path": "deploy/reorient/__init__.py",
+      "sha256": "45305920540a307763b14180c610a0a3c06f8fe9c6bfa02ce46889ea11ab5538",
+      "bytes": 81
+    },
+    {
+      "path": "deploy/reorient/config/camera.yaml",
+      "sha256": "78b946d9b065aba4389dc1e87c1af17735046d2282181bba172f719cb0a70b3e",
+      "bytes": 394
+    },
+    {
+      "path": "deploy/reorient/config/control.yaml",
+      "sha256": "2422a189772bd0697dbdb8f9652808931a153cdd41643766afcb0036ef30aa45",
+      "bytes": 856
+    },
+    {
+      "path": "deploy/reorient/config/cube_calibration.yaml",
+      "sha256": "503f86385fc04fbd151e2b0aac927246604468bfb532315b55dc9623372b949a",
+      "bytes": 12620
+    },
+    {
+      "path": "deploy/reorient/config/cube_tags.json",
+      "sha256": "d74041bc61e30ba669fc506d34b35e8143b3d66a299a284f3d9624c30ba5d70d",
+      "bytes": 2880
+    },
+    {
+      "path": "deploy/reorient/config/observer.yaml",
+      "sha256": "d1cde0e3f1167f9a169b5b77261c4093c23f5ec37ddb2cc9d8dec5c23fef323e",
+      "bytes": 1059
+    },
+    {
+      "path": "deploy/reorient/lib/__init__.py",
+      "sha256": "45305920540a307763b14180c610a0a3c06f8fe9c6bfa02ce46889ea11ab5538",
+      "bytes": 81
+    },
+    {
+      "path": "deploy/reorient/lib/_paths.py",
+      "sha256": "d79868efb80307779dca7317a066d98c31b618c69cdcf94ef24da32461cd3eaf",
+      "bytes": 1466
+    },
+    {
+      "path": "deploy/reorient/lib/camera_config.py",
+      "sha256": "24935fe17e42862806cf0ded29fe74b08c97c640b7619649f594c4672cb6df24",
+      "bytes": 5899
+    },
+    {
+      "path": "deploy/reorient/lib/config_loader.py",
+      "sha256": "e978cb36245a090429fd0c9c5da435ce62e1546aed28c029e0093e02ae3a8d56",
+      "bytes": 4519
+    },
+    {
+      "path": "deploy/reorient/lib/cube_geom.py",
+      "sha256": "893609cfac3fac9cc6f55c34d92284c41e6374168a05db9124dfbf5d2642c7b9",
+      "bytes": 3445
+    },
+    {
+      "path": "deploy/reorient/lib/external_goal_command.py",
+      "sha256": "62aa1ee48d79ab7f5e9c4e854d7a15855da5616ebb90897bcfd6f7d3e00720fa",
+      "bytes": 2479
+    },
+    {
+      "path": "deploy/reorient/lib/frame_transform.py",
+      "sha256": "6ab50c0492a57b70d1facdecd40d98488aff42df6ec7952235e81d794534382a",
+      "bytes": 1778
+    },
+    {
+      "path": "deploy/reorient/lib/hand_driver.py",
+      "sha256": "7a06fda731f7de8d423378814a77059ff1a10ca1df9a34ef4be3d925afd2e0a5",
+      "bytes": 8496
+    },
+    {
+      "path": "deploy/reorient/lib/interpolator.py",
+      "sha256": "ba5570eb273ff6ecedc49e33e4bbcf4a6a2dde5200e28a1e4968ac3d44cff5be",
+      "bytes": 2073
+    },
+    {
+      "path": "deploy/reorient/lib/joint_data.py",
+      "sha256": "f9ca58e50411ccaaf9d1982e643ea9598e8b960991058d305bd9933ef4dec126",
+      "bytes": 10406
+    },
+    {
+      "path": "deploy/reorient/lib/onnx_policy.py",
+      "sha256": "f7d59de1a19c34e281a39af41b9bfe970bb0a8ff8c4aa92c0ede6718fc107206",
+      "bytes": 8352
+    },
+    {
+      "path": "deploy/reorient/lib/ood_diagnostics.py",
+      "sha256": "b01fb67a1612cd255955b7bb74f614f94cda241a77eb630bbd1bd8e0acae9b43",
+      "bytes": 6686
+    },
+    {
+      "path": "deploy/reorient/lib/real_hand_env.py",
+      "sha256": "a574ea79fc2f859e51332bcf08d54b16ea8aa9b5725714318da6c07b6bd28a46",
+      "bytes": 12994
+    },
+    {
+      "path": "deploy/reorient/lib/real_hand_env_cfg.py",
+      "sha256": "653687b28fe4053bdee6084b10c52a8f540968269a0a201e7cb1844e3bb15cfe",
+      "bytes": 7269
+    },
+    {
+      "path": "deploy/reorient/lib/real_hand_obs.py",
+      "sha256": "bc823258cc00ede6a44f74f5222508b5a2486517ec1fc56109c7823e2738c481",
+      "bytes": 3657
+    },
+    {
+      "path": "deploy/reorient/lib/viewer_sync.py",
+      "sha256": "cc3969a8e3294dac8465c2b6e31aab06295e5e03edc77c0eb11d042989fbf0dd",
+      "bytes": 2964
+    },
+    {
+      "path": "deploy/reorient/lib/zmq_bridge.py",
+      "sha256": "0587450cfa509fe3f5eb458f3de7678012da8525a067096397c3a9cb68014016",
+      "bytes": 12937
+    },
+    {
+      "path": "deploy/reorient/scripts/cube_world_observer.py",
+      "sha256": "8bf86e092cab80b68f11768177fde1f2271c5017cc454bdfa4e1f55e4d79720e",
+      "bytes": 58238
+    },
+    {
+      "path": "deploy/reorient/scripts/hand_utils.py",
+      "sha256": "da953f533e365b7f03337bcd4e6f16c494abc69f9df69eb0488375bd105d72e2",
+      "bytes": 7210
+    },
+    {
+      "path": "deploy/reorient/scripts/play_real.py",
+      "sha256": "24145f069356a6da3f672e2a67eafee1eb4b249e3b3b220385e7047e24052488",
+      "bytes": 72449
+    },
+    {
+      "path": "deploy/reorient/scripts/toreal_viewer.py",
+      "sha256": "fdf026557968f04aedf18e1c339d29aff406934d07a4b06abeb41bcd8f59eadd",
+      "bytes": 9115
+    },
+    {
+      "path": "deploy/reorient/tools/__init__.py",
+      "sha256": "45305920540a307763b14180c610a0a3c06f8fe9c6bfa02ce46889ea11ab5538",
+      "bytes": 81
+    },
+    {
+      "path": "deploy/reorient/tools/calib_check.py",
+      "sha256": "b322969e879f95081fac2abe7d11519e999db28f434ab2c0a77b995726b818f9",
+      "bytes": 7173
+    },
+    {
+      "path": "deploy/reorient/tools/camera_calibrate.py",
+      "sha256": "1615adb71503dbc6fe49d876d9e3ca8fb5ffa695670838c17faef0976ad9011f",
+      "bytes": 24986
+    },
+    {
+      "path": "deploy/reorient/tools/view_release_cube.py",
+      "sha256": "a1070748c512991c160a7f7e0dc4d736a590548102a1f33296b7bbf6af58cd5d",
+      "bytes": 2110
+    },
+    {
+      "path": "deploy/wrist_student/check_release.py",
+      "sha256": "1f3f73bdefa1cf452a947ad045fa2e553c139ac0bc7cb065edc8b5f48f809419",
+      "bytes": 3113
+    },
+    {
+      "path": "docs/L515_APRILTAG_TRAINING.zh-CN.md",
+      "sha256": "e79aa267f96123a9f9381a3075f620f8d99c906e082833367da0ece93705dafe",
+      "bytes": 15917
+    },
+    {
+      "path": "docs/PALM_DOWN_ANY_POSE_IMPLEMENTATION.zh-CN.md",
+      "sha256": "522f3abf729eccd2dfb2a5155442f4b9eab92dbc0feac6a705f25f63e5b04ccb",
+      "bytes": 7704
+    },
+    {
+      "path": "docs/ROTATEANYTHING_PLAN.zh-CN.md",
+      "sha256": "59d244788577210ad2c30b1c8ed82082c145b4f226759019f56c37b44259d167",
+      "bytes": 24343
+    },
+    {
+      "path": "docs/assets/deploy.gif",
+      "sha256": "20a8f5eb7b1511c81359a0998be5c16d75d1689ae3c2e625d00a075c99c26dd5",
+      "bytes": 4357321
+    },
+    {
+      "path": "docs/assets/real.gif",
+      "sha256": "72994cf6c8761036e2d3b2be9f2bd9abeebf781d415061b1a08a9e1efdd87bdf",
+      "bytes": 3076703
+    },
+    {
+      "path": "docs/assets/sim.gif",
+      "sha256": "0df7bff27d1c4ffc6606e2a1e1e2ce868aacd4bb6119aee1fcb6a0a0c423a9d2",
+      "bytes": 3365666
+    },
+    {
+      "path": "docs/external/en/architecture.mdx",
+      "sha256": "9088b20894aeefda44988ade89e80525a36c318ffc634a5a482b11b58a029677",
+      "bytes": 4796
+    },
+    {
+      "path": "docs/external/en/hardware.mdx",
+      "sha256": "3d58957471594ec86afe97c903257da5d08cf79f4206162018b3cb8678fbce6e",
+      "bytes": 17558
+    },
+    {
+      "path": "docs/external/en/images/deploy.gif",
+      "sha256": "19a27d6fea072272757f0410494255b06e2d6b4488b5b4132fb0a50df223cdfa",
+      "bytes": 2172629
+    },
+    {
+      "path": "docs/external/en/images/hand-jig-side.jpg",
+      "sha256": "889e1a069ca00ae59ffe2ee541155ce3305a0f60fe308a67243447fd31a9d5f5",
+      "bytes": 51240
+    },
+    {
+      "path": "docs/external/en/images/real.gif",
+      "sha256": "72994cf6c8761036e2d3b2be9f2bd9abeebf781d415061b1a08a9e1efdd87bdf",
+      "bytes": 3076703
+    },
+    {
+      "path": "docs/external/en/images/sim.gif",
+      "sha256": "e99b06fcb535ca2283981c2424a1518d1dfaa0f75ecf2a75b23d3f5faa0ab247",
+      "bytes": 2596475
+    },
+    {
+      "path": "docs/external/en/installation.mdx",
+      "sha256": "729f61f179b4d930ba14cbe693ccfc15120e958b6727ea87f6ad487bdcf8df48",
+      "bytes": 2438
+    },
+    {
+      "path": "docs/external/en/introduction.mdx",
+      "sha256": "d9d34e9044df68c5057be40adbd611b2b7dfbaf841f175238bbb7fc4faf9b0b2",
+      "bytes": 2598
+    },
+    {
+      "path": "docs/external/en/meta.json",
+      "sha256": "c6f5aa5b2daf2bdb5e8efc0333eee13876d628ca2d1e264aff8933878c64b499",
+      "bytes": 350
+    },
+    {
+      "path": "docs/external/en/sim2real.mdx",
+      "sha256": "68ee3e155f3f52ee9fc077303c3dafd6a724dabaf1de88f4f4ca97521b584c1b",
+      "bytes": 7987
+    },
+    {
+      "path": "docs/external/en/training.mdx",
+      "sha256": "ae01a9971a08d83fdbad3054f45043e25c4f97e2e0efc43c7607e1f08c7fd61c",
+      "bytes": 3372
+    },
+    {
+      "path": "docs/external/zh/architecture.mdx",
+      "sha256": "9f34572ece93fb78efef970b3dd7c99d45d5402927f36ea68d7d7191f54b9466",
+      "bytes": 4468
+    },
+    {
+      "path": "docs/external/zh/hardware.mdx",
+      "sha256": "5bf18a8f884974e2fb1a0231e40f2a95cd5c0eb3b4054011077c6e3dcb9c03e5",
+      "bytes": 16717
+    },
+    {
+      "path": "docs/external/zh/images/deploy.gif",
+      "sha256": "19a27d6fea072272757f0410494255b06e2d6b4488b5b4132fb0a50df223cdfa",
+      "bytes": 2172629
+    },
+    {
+      "path": "docs/external/zh/images/hand-jig-side.jpg",
+      "sha256": "889e1a069ca00ae59ffe2ee541155ce3305a0f60fe308a67243447fd31a9d5f5",
+      "bytes": 51240
+    },
+    {
+      "path": "docs/external/zh/images/real.gif",
+      "sha256": "72994cf6c8761036e2d3b2be9f2bd9abeebf781d415061b1a08a9e1efdd87bdf",
+      "bytes": 3076703
+    },
+    {
+      "path": "docs/external/zh/images/sim.gif",
+      "sha256": "e99b06fcb535ca2283981c2424a1518d1dfaa0f75ecf2a75b23d3f5faa0ab247",
+      "bytes": 2596475
+    },
+    {
+      "path": "docs/external/zh/installation.mdx",
+      "sha256": "ff1cda0193e1bf629b0f4f36295c469b3fdfe751717282888b99b3b56a7d180b",
+      "bytes": 2306
+    },
+    {
+      "path": "docs/external/zh/introduction.mdx",
+      "sha256": "f9bc52fb9de180d9518d888fc85bb003c661b4c08ab8185c8c6de4868c79c1f4",
+      "bytes": 2407
+    },
+    {
+      "path": "docs/external/zh/meta.json",
+      "sha256": "972d775c907c4376d2a29899b02cb86fe26def8657c3a0f98263f65d7abb5f4a",
+      "bytes": 325
+    },
+    {
+      "path": "docs/external/zh/sim2real.mdx",
+      "sha256": "50e18f6b900b26042023349b5abf8b68d9f29c77011e2ed8872eba83efc64e62",
+      "bytes": 7564
+    },
+    {
+      "path": "docs/external/zh/training.mdx",
+      "sha256": "0944791191b83586f789709832572b369d4f0b73219945fd9eedb6de63e5264c",
+      "bytes": 3300
+    },
+    {
+      "path": "docs/sim2real/images/hand-jig-side.jpg",
+      "sha256": "889e1a069ca00ae59ffe2ee541155ce3305a0f60fe308a67243447fd31a9d5f5",
+      "bytes": 51240
+    },
+    {
+      "path": "docs/sim2real/setup.md",
+      "sha256": "4d25acc6e707bcff51d5c1338350515fe86e508c3b512a65837abb47ebecaf57",
+      "bytes": 34802
+    },
+    {
+      "path": "docs/sim2real/setup_zh.md",
+      "sha256": "8c9ba9bc14fbee02193a75eb5019a37b9078851163156079a0167434a2808205",
+      "bytes": 34402
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_assembly/assembly.png",
+      "sha256": "8d164316406ecb07628edb8fee3b7f8ebfff3403f67e0110d571d2b429777e23",
+      "bytes": 287266
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_assembly/geometry.json",
+      "sha256": "7c9ef70fcc359c05db74453ee29837d82839fc1b411207a2b749c316a16b51db",
+      "bytes": 1732
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_assembly/overview.png",
+      "sha256": "ed963249fe6b20b92da957fcc7a23117d540d35cca3dc74f35f927c6a6122d55",
+      "bytes": 168021
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_assembly/side.png",
+      "sha256": "050aea183684e588066bf2b34098bfb0b3aab06752cb806207b16f1a974458f7",
+      "bytes": 123471
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BACK.obj",
+      "sha256": "ae6f776f4d31808c8e3766b1405932ca9d1313b5c93cad7678fb52e0676a21d7",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BACK.png",
+      "sha256": "231eb58336780dfcd5831152b46f1f752090d83fa87a256223ac381fe7c1fa40",
+      "bytes": 9433
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BOTTOM.obj",
+      "sha256": "5845c85597e6ee0ebc1a9767fcf75a2365ff6559097df53719923c05d935d844",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BOTTOM.png",
+      "sha256": "55f8bc7dbf173813e30d75b9cf7ea4717ce3f7cbc62dd82916c5e63b8f21cff4",
+      "bytes": 9193
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/FRONT.obj",
+      "sha256": "6761e7c71cd160f9e5a4ff7b182e6ca6c87d91b99f07fd13801d52c31336cc27",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/FRONT.png",
+      "sha256": "5d6c064b9d9fa28cb17b4014a9f8f417694dd6357e8f594feefadd77848b5476",
+      "bytes": 9664
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/LEFT.obj",
+      "sha256": "c315107ad7703ab2a3fcc93962e1aff29d38af4e49f044d7b58e90257994aafb",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/LEFT.png",
+      "sha256": "f94bb7ef66865f3ae096d56810fa5e2def8ff33ee3b690ddebf0fa21fc175302",
+      "bytes": 9776
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/README.zh-CN.txt",
+      "sha256": "307e86bee6c21b93c4aacdb4d99cca4dc954f027db2063efe3324d060487b5e6",
+      "bytes": 916
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/RIGHT.obj",
+      "sha256": "796afa3512e355de3ac0bad22ab9e545717e52dac54e442637721dc8f1a9fc59",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/RIGHT.png",
+      "sha256": "0ba4f3b3a9dd37f1061b88f86377da30e2b1b85d7e685ad252f7a1b8bf23d2f5",
+      "bytes": 9284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/TOP.obj",
+      "sha256": "aaa250a59b7b71e1b2008a4ceb6784bc6d52c19100a565f9223739e61c89cf51",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/TOP.png",
+      "sha256": "13853d38c2c4ccdd0cce0b2021a6f4e171191bb835333a1cc3416320173f0ce0",
+      "bytes": 9862
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/board.json",
+      "sha256": "6dfe9d52498c59989045c2f0b1f4b05827149c8818a3a899db1ac2604677614c",
+      "bytes": 12631
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/camera_closed_loop.mp4",
+      "sha256": "fa90f36ca40338416f0d66390d3e4b45fa95dd32bb22977a98a7620aceb6e6b1",
+      "bytes": 2492846
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/evaluation.json",
+      "sha256": "17705ab2abb604971ab98e88c5cc330d88f704e2d27b1984c5bc9e6878b13513",
+      "bytes": 3931
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/official_dual_view.mp4",
+      "sha256": "d9bfdeff0f5e82191c9deed1e9e4ea88d2e5cc6a2dd51e949b24e6f06c253299",
+      "bytes": 2435409
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/official_dual_view_preview.jpg",
+      "sha256": "8e8f3e7798ad11780a125e10d74989a39ae6e8782270b26b4247fdf823451a3b",
+      "bytes": 106545
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/tagged_cube.xml",
+      "sha256": "a36e4888debc9812d681b962ca8c4d3ed245b4430c87474a4af8638d8d13048d",
+      "bytes": 5078
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/trajectory.csv",
+      "sha256": "6265d52e4ac82e484a31e91107a334308d122b3ce1ce02b37c01d2bb9ad4b163",
+      "bytes": 73222
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/comparison.json",
+      "sha256": "567a5087430aa9b31a5e45bbe0af7b2df26ad3d5eec5bc4d90decaddc54f3d51",
+      "bytes": 8551
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/BACK.obj",
+      "sha256": "ae6f776f4d31808c8e3766b1405932ca9d1313b5c93cad7678fb52e0676a21d7",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/BACK.png",
+      "sha256": "231eb58336780dfcd5831152b46f1f752090d83fa87a256223ac381fe7c1fa40",
+      "bytes": 9433
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/BOTTOM.obj",
+      "sha256": "5845c85597e6ee0ebc1a9767fcf75a2365ff6559097df53719923c05d935d844",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/BOTTOM.png",
+      "sha256": "55f8bc7dbf173813e30d75b9cf7ea4717ce3f7cbc62dd82916c5e63b8f21cff4",
+      "bytes": 9193
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/FRONT.obj",
+      "sha256": "6761e7c71cd160f9e5a4ff7b182e6ca6c87d91b99f07fd13801d52c31336cc27",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/FRONT.png",
+      "sha256": "5d6c064b9d9fa28cb17b4014a9f8f417694dd6357e8f594feefadd77848b5476",
+      "bytes": 9664
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/LEFT.obj",
+      "sha256": "c315107ad7703ab2a3fcc93962e1aff29d38af4e49f044d7b58e90257994aafb",
+      "bytes": 400
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/LEFT.png",
+      "sha256": "f94bb7ef66865f3ae096d56810fa5e2def8ff33ee3b690ddebf0fa21fc175302",
+      "bytes": 9776
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/RIGHT.obj",
+      "sha256": "796afa3512e355de3ac0bad22ab9e545717e52dac54e442637721dc8f1a9fc59",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/RIGHT.png",
+      "sha256": "0ba4f3b3a9dd37f1061b88f86377da30e2b1b85d7e685ad252f7a1b8bf23d2f5",
+      "bytes": 9284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/TOP.obj",
+      "sha256": "aaa250a59b7b71e1b2008a4ceb6784bc6d52c19100a565f9223739e61c89cf51",
+      "bytes": 392
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/TOP.png",
+      "sha256": "13853d38c2c4ccdd0cce0b2021a6f4e171191bb835333a1cc3416320173f0ce0",
+      "bytes": 9862
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/board.json",
+      "sha256": "6dfe9d52498c59989045c2f0b1f4b05827149c8818a3a899db1ac2604677614c",
+      "bytes": 12631
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/camera_closed_loop.mp4",
+      "sha256": "96d0d3986155c6db0db79e29db54a077588e58316bd08264e938b8c2f0ad87de",
+      "bytes": 2052651
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/evaluation.json",
+      "sha256": "a2d7cbd373ada6bf7f971b26ebf87e2f6f3dd4cb4e59ff47d906d0bb46e8fb8e",
+      "bytes": 10199
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/tagged_cube.xml",
+      "sha256": "f34f58e613e81a8939603dac532c9849a375758144b9b44461fa7570051ef4e3",
+      "bytes": 5246
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/eval_factory-vga/trajectory.csv",
+      "sha256": "0e7853f5fa59c1d5de2a61553e6f1fb7d858dcc40f3fe8ca2784356ce1b0a2ea",
+      "bytes": 1129750
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/remote_factory_intrinsics.json",
+      "sha256": "a13a224ff642eac61441dff5ba8717fe04477fa9260ec99ec9d6108e79b63e20",
+      "bytes": 50085
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/fov_validation/right_arm_rgb_profiles.json",
+      "sha256": "a2fb5ae64df98829ec809144c7c8bb201c5c8ea43b3ada7e9cf89bb80845089f",
+      "bytes": 1922
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/011e4890f925b9d3.stl",
+      "sha256": "011e4890f925b9d3454261f4fa98f0fb1b95c3aaeec707aa3db48a305fc42243",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/080015cce41de319.stl",
+      "sha256": "080015cce41de31954e53bbfca45f37f0439e2e689bca49e1910c70efc4f70b7",
+      "bytes": 92684
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/0e32302a46cd00d6.stl",
+      "sha256": "0e32302a46cd00d6cc1e7fb03cc483988c639271708c2300a9aecc9de537e42b",
+      "bytes": 366584
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/1083dcec6df545d6.stl",
+      "sha256": "1083dcec6df545d60c3f14af1113613ca89cc8964692dd624baa750491915f40",
+      "bytes": 91284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/1ba4495e3b7adc70.stl",
+      "sha256": "1ba4495e3b7adc707d50150a8625a0ed3731fa42ab6d40e62ae7437da103ce5e",
+      "bytes": 456184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/1c7a2a8124e39ad0.obj",
+      "sha256": "6a027380492e21951239a0f3060f43522e80fdb6875325e1cc875b365858301d",
+      "bytes": 859944
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/1f21215bdb628922.stl",
+      "sha256": "1f21215bdb62892271a263969c92dc1be15c409ec8fc96b6bdec3c28d77f0e6e",
+      "bytes": 13584
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/1f76a0f6319bd664.stl",
+      "sha256": "1f76a0f6319bd664570fa2571e6a87db2b5b94a47045732daef486f2896dc220",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/24f3464762c5ab07.stl",
+      "sha256": "24f3464762c5ab07b4c56d3df6576ee43cb63eab0938c6366f1153323c619aa5",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/25929e0c28a5c65a.stl",
+      "sha256": "25929e0c28a5c65afe88dbccaa697664a2385f8ead02126731a7e1b956ec1dea",
+      "bytes": 96084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/26b793372d5232de.stl",
+      "sha256": "26b793372d5232de0b82dd2e74a041564f9bb22394705f2bae23366921cc56b0",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/29ed263d5e5cb24f.stl",
+      "sha256": "29ed263d5e5cb24fdede93f6a8c695c36aaf5392f7c52acd4b13dee050a98bb9",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/2adeb7b286e96c57.stl",
+      "sha256": "2adeb7b286e96c57c354c0b4d2107aa7bbd63a58b47a2fce828f313722d8eae2",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/3117fd3aea238c07.stl",
+      "sha256": "3117fd3aea238c07fc1bf678784d38497bfdd603a7760bf36b7fb31b15f0624e",
+      "bytes": 11484
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/338db71e2c1ec63f.stl",
+      "sha256": "338db71e2c1ec63fba860d5d2af52bcb1daff72349b0e03a45f82ae63539bd43",
+      "bytes": 51984
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/36e0471a0373a763.stl",
+      "sha256": "36e0471a0373a7634fc10911b33f3b30a5fe829f6526e656a911406cebf19731",
+      "bytes": 56184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/3af337085d5f6430.stl",
+      "sha256": "3af337085d5f6430a471462c18b9132f1447eb8c0f3c68a8b1e69318ff8c3db8",
+      "bytes": 91284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/3b8efa21bafcae21.stl",
+      "sha256": "3b8efa21bafcae21119f243decf924dac51cc55181ed540e69ce6b85ecf03790",
+      "bytes": 54884
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/3c52a112d1610d64.obj",
+      "sha256": "1c6bdaa83d47b78563099c4c966de73c85d75c90e52fa661be107ade6686065a",
+      "bytes": 2886203
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/3eede2c8e1eb1301.stl",
+      "sha256": "3eede2c8e1eb1301bc23b4b453fb7014ca5965611b44b115a7330bf33e4d922e",
+      "bytes": 54884
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/4678873a3d1ca7c0.stl",
+      "sha256": "4678873a3d1ca7c0a97f68cf87ebaa334484cf2d202da76b961e7c16a7a5968d",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/48d70e865e2b4913.stl",
+      "sha256": "48d70e865e2b49139028511808ae3ad25c5cf06e36fe959c6c71b5263dfcbbde",
+      "bytes": 91284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/48eb6a1c4818d6be.stl",
+      "sha256": "48eb6a1c4818d6be44c1264b069c06362a2edc0bb8ebacb70f195e1e3f4e9090",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/496039ce3f4f3fbe.stl",
+      "sha256": "496039ce3f4f3fbe6bac466a01567797f741af95c6f11dc61626ec2de175900b",
+      "bytes": 112784
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/508321fefaeae1ae.stl",
+      "sha256": "508321fefaeae1ae0567f89acd2492fac27cc468a2f562d895afcff192b0d00c",
+      "bytes": 56184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/50e5f990401d1ede.stl",
+      "sha256": "50e5f990401d1ede299adc2034c5c2c66f8b2499a8f7c38d9bbc4e26da06c3b9",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/52eef283d29c617f.stl",
+      "sha256": "52eef283d29c617fe4457151685386324bddbccf1598b8a7fc675bb8f28dc85a",
+      "bytes": 89184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/53d0ef5c6346f3f5.stl",
+      "sha256": "53d0ef5c6346f3f5dd514646df784fa1b6b56c088164496ef661019566028c1d",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/542614615dc46aee.stl",
+      "sha256": "542614615dc46aee7df9cad628374a3aea4c07f58e6f2c716d2b4cbebe665139",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/558fac18be219c0e.stl",
+      "sha256": "558fac18be219c0e6bb6224b82c711b3efe762b547818ea074eda93dc38bad07",
+      "bytes": 56184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/55cf7973ab4d5711.stl",
+      "sha256": "55cf7973ab4d57119f6eb032704defddf7077a01022f99d6a9f95eaea7f28875",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/56990396d712b2eb.stl",
+      "sha256": "56990396d712b2ebb89f7d29083973c823babd3bfa605f2d2863bd1069d29788",
+      "bytes": 18784
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/56bb1972b8cb1d63.stl",
+      "sha256": "56bb1972b8cb1d63d48aa18283148ff6760e387dc64fe963b11209e07e243511",
+      "bytes": 51984
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/5c5846eabc714aef.obj",
+      "sha256": "00586fa62f7c450b9fc39e539e414895a1307b214fa2d5d84efc60854a8e38b2",
+      "bytes": 317118
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/5e17d2b4a7b9c5bd.stl",
+      "sha256": "5e17d2b4a7b9c5bd7f920990b7c10b377ca7fa2038f3cdcdd2e541d50dd96872",
+      "bytes": 2101584
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/6342d4562a8bfaef.stl",
+      "sha256": "6342d4562a8bfaef740850c02dc5418ade11dcbe04736b957d93522995080f35",
+      "bytes": 54884
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/698e2327acfe737e.stl",
+      "sha256": "698e2327acfe737e11fb10f2fb1d36bbf8f1bc6e688f1e31e6232bfc51127581",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/7a99f65a6a473899.stl",
+      "sha256": "7a99f65a6a473899913d4273e61319e3724fbf81ac8532969ed5c2ff1c1bde54",
+      "bytes": 112784
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/7e855b092faf2e2f.stl",
+      "sha256": "7e855b092faf2e2f0471109814ad9b2469485f88a47b6abd290b79b0f663ab2d",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/85ce22b8285a7d85.stl",
+      "sha256": "85ce22b8285a7d85e4c866151c972cde0736d4f618f35015b0b96fe39e367e49",
+      "bytes": 56184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/8643d9c3d6363aa7.stl",
+      "sha256": "8643d9c3d6363aa7d6652e2137b4f496a1bd350dc39a0ddcc9cc8bfdc5f34093",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/86783162be22f760.stl",
+      "sha256": "86783162be22f7600503a0a62484314367cf0d1adc2757a68681667e8f03205d",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/8eb85ee78e3fd9e4.stl",
+      "sha256": "8eb85ee78e3fd9e489a75e0385ea8493db0af0023286a005ac148cc26ff65b81",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/907b16fea84931f4.obj",
+      "sha256": "27c06c11c5ed7d00d11aac4068c1084c7f5b7837d67d368e5874b067c408782e",
+      "bytes": 1931324
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/90a1bd38abdc53d0.obj",
+      "sha256": "02332e66f10747fcedbb286d2625d1e0d61e7341a45b5a277f9c0e31f3d5a3d2",
+      "bytes": 316343
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/9245362396a184e6.stl",
+      "sha256": "9245362396a184e63af8d2707dc85a3250f1d7db4eeb079d5b3ee9b432939dd6",
+      "bytes": 51984
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/930360774dcefe89.stl",
+      "sha256": "930360774dcefe897cafcf6145d042217a78f1b54ca98dc7a1017db889f18afc",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/9ad5c4698aed204c.stl",
+      "sha256": "9ad5c4698aed204cd505e74356adfbb955196913d0b75a616c3865b319d39e6b",
+      "bytes": 16234
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/9ece831387ac3939.stl",
+      "sha256": "9ece831387ac39396f8e1e1e848b16bcdf433029a74f7f4f47542ebcff2fedbe",
+      "bytes": 138584
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/a68648fc10cccdc5.stl",
+      "sha256": "a68648fc10cccdc58b2db7a4d09079ba2a9fa102a04e3c6a955e13e25edb2c30",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/a8708b0b03aab6a7.stl",
+      "sha256": "a8708b0b03aab6a7fb5074a6c9639dee85be56415018ad16a9a04b6f43b6cc85",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/b01668bab4522609.stl",
+      "sha256": "b01668bab452260954faf8cbff94fb59c55ccb3e490ff6eb4b73e81e550c787f",
+      "bytes": 91284
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/b9574ef02cdf234d.stl",
+      "sha256": "b9574ef02cdf234dff9f12359e00f6c11a4b062cf73d1db20894c57f5a9d716a",
+      "bytes": 13184
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/b9d05ac502ff269b.obj",
+      "sha256": "fe2ee22ced1cbdacbb518fe876c04e3dcf63b9b841df7abe25d45a824b51f642",
+      "bytes": 1691046
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/bf966538aa20a9ea.stl",
+      "sha256": "bf966538aa20a9ea1ba6e58c8bf1bf09aef3ca6826f349757077d3de84ed0119",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/c174872b06547dc6.stl",
+      "sha256": "c174872b06547dc6acdd027679e476d4cddffe0224cb048763bdbf4f68fe7542",
+      "bytes": 13384
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/c48646a72ed0264e.stl",
+      "sha256": "c48646a72ed0264e5f90b221327fd2b72163935ec7bc1cde9612ac1dcf23eabf",
+      "bytes": 15784
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/cbcabd369e044eba.obj",
+      "sha256": "055f3a25b03969b14f9494c125b0ee2ff66a5e9a71b951225f75e3dfdd6bd6a7",
+      "bytes": 1257618
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/cc3b2c4d5b630452.stl",
+      "sha256": "cc3b2c4d5b6304520c4a0297978ffaed3005d99cd8bdf74cc631deb6f5d9f14b",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/d673bf02761f7227.stl",
+      "sha256": "d673bf02761f722728eb1ee0e7cc79ee6afba7693c78f623c3a4a89d5a905453",
+      "bytes": 54884
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/db3b779d3cf98615.stl",
+      "sha256": "db3b779d3cf98615617f5554946205e9f07de5cd9853005305048f617dc96fdc",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/dd134cf13cdaced2.obj",
+      "sha256": "7b308540c97e21321264b560e9299a637689df1c87feaab60ffe30fe5935bd7c",
+      "bytes": 879223
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/ddbd96f0b25ac958.stl",
+      "sha256": "ddbd96f0b25ac9582a786bc6da7b363be61804e2b02fa5da4ca17c04f1715e5f",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/dextoken_black_hole_ring.obj",
+      "sha256": "829b3e0af4f909bd4703107f52dfdf67adf444078c689012c0b142b3c5845dcc",
+      "bytes": 9725
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/e023cf1db282e07f.stl",
+      "sha256": "e023cf1db282e07f38597d4e7f9edae03cd0dc338974677b31639f677411dc18",
+      "bytes": 11884
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/e0b28769389c33af.stl",
+      "sha256": "e0b28769389c33af6af73c6dbf506be126570fa6ca7cbaf08f85a51005c48cde",
+      "bytes": 51984
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/e8b1fbee8e019afe.stl",
+      "sha256": "e8b1fbee8e019afe490e820b1cba5e02c5124bb4a09aa73896bd46db6586dfde",
+      "bytes": 113484
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/ebbf48ca7ba3bca5.stl",
+      "sha256": "ebbf48ca7ba3bca5f329f95277ae392d0c1a09615eda23f1bf646c5112a38cee",
+      "bytes": 112784
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/f0fb321c4abfd4ab.stl",
+      "sha256": "f0fb321c4abfd4ab7437caeb116f1935b94d1510fd921222eb49ba6c5a57f057",
+      "bytes": 65984
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/f2042ec400e5840b.stl",
+      "sha256": "f2042ec400e5840bf1b3c22aebb7c50ffa466e0f23474908c40ab546eefdbc6c",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/fafdff7b5e8b736b.stl",
+      "sha256": "fafdff7b5e8b736bde927d6b62a7c953bd1f4bf8e77b442f5a7217ae0f2fa431",
+      "bytes": 25084
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/assets/peg_board.stl",
+      "sha256": "69b469f2c2994b094fa8895fd356be3389d039bcb8ec99d156df64dbc01823e7",
+      "bytes": 192484
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/franka_wuji.urdf",
+      "sha256": "d980f610de2e5b9d5c8bb04a7bfa3dc737e4a6db7da7d41060313237f73df0cc",
+      "bytes": 41246
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/model_manifest.json",
+      "sha256": "e913410c6ec32fe1e8694837babcb0889bae071cff917fd236aa0c2a702c40dd",
+      "bytes": 34598
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/franka_wuji_sim_assembly/scene.xml",
+      "sha256": "a680a7d0f40c0472fddb1c4b3573031e721a743d1d9d20f6a38eee921d77446e",
+      "bytes": 348315
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/hand_model_comparison.json",
+      "sha256": "6d1e8d5ba020fcdee14688360c844ef18bf488844e9607fcbf58911cea7afff2",
+      "bytes": 14040
+    },
+    {
+      "path": "hardware/franka_wuji_sim_assembly_20260930/official_hand1_provenance.json",
+      "sha256": "72cf4f1f55d0e688abd572ad289ef3246277b9f26fef61947d3fe5ff8efe9b8f",
+      "bytes": 365
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/cube45_face_stickers_A4.pdf",
+      "sha256": "bd63061a333871c9cf671ce3400097a4d6da8d161b4698a349ff67424b3f08d5",
+      "bytes": 24450
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/cube45_hollow_body_wall1p6mm.stl",
+      "sha256": "2624029a0ea73c4c2f10d8e739bb6ec558fc84b08bea26450ee7e9166ec6fb2a",
+      "bytes": 1484
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/cube45_lid_1p6mm.stl",
+      "sha256": "260b4fdf0c5c2b494d08f18f06e00325a941a3d34ffa211e9260dcfd7b01e61a",
+      "bytes": 684
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/cube45_outer_solid_for_low_infill.stl",
+      "sha256": "ab45281347a869610d28d52d34c17b149c05d7531f4f484c32adba738e5c2093",
+      "bytes": 684
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/cube_tags45.json",
+      "sha256": "7045ba0444bd41e020943301644aae3ac69ac9b1d930968d677e3ad75b4adebe",
+      "bytes": 2190
+    },
+    {
+      "path": "hardware/palm_down_cube_45mm/wrist_apriltag36h11_ID0_48mm_A4.pdf",
+      "sha256": "6705c5fa97b496738509e55a9ec7f05ece2207921d280609844e239ded39b7f6",
+      "bytes": 18147
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/README.zh-CN.txt",
+      "sha256": "e7f6d17b2804f10247cf0ab0bf0ebb9851aacea578e4362d2740f093af1a6dce",
+      "bytes": 678
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/conversion_report.json",
+      "sha256": "bbf61b9664badb1820bb13085f63049acd4716799cdb3ffdf98e5be4b5e39edc",
+      "bytes": 479
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/official/Assembly.pdf",
+      "sha256": "74e89680928653c65e7d1d3509bd28ed026685ac819e11edf080982b8f7f80de",
+      "bytes": 224939
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/official/BOM.xlsx",
+      "sha256": "327dd912c02041ba5fa83bc8f5cf6f104bbf7d04a79e3a3f5548a27184dd454e",
+      "bytes": 38477
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/official/Base.3mf",
+      "sha256": "fa087760bd59b7a6f5e3095dae4a8ac392b5c372cde16f60630503b139077150",
+      "bytes": 79816
+    },
+    {
+      "path": "hardware/wuji_hand_optical_mount/wuji_official_optical_base_mm.stl",
+      "sha256": "dbcb70aabdc2d11376d18e3722b0299bcfe4a01d91f6357e2c44ff6f4bc589c7",
+      "bytes": 196084
+    },
+    {
+      "path": "logs/rsl_rl/wuji_cube_downward/anypose_rewardfix_20260923_v1/rotate_full_so3_8000/final.pt",
+      "sha256": "d60d4d52a74a321620608afc179248221a0bb72c22cd165e52190d63e0f855c3",
+      "bytes": 12274887
+    },
+    {
+      "path": "logs/rsl_rl/wuji_cube_wrist_student/camera_dagger_20260930_v2/student.pt",
+      "sha256": "66b3fba9b3eeb65e4719f5880dcf7ee3453d8b49069498c33e502b4177d31ab8",
+      "bytes": 1110719
+    },
+    {
+      "path": "logs/rsl_rl/wuji_cube_wrist_student/camera_dagger_20260930_v2/training.json",
+      "sha256": "43e7cad8c17081142d6330d72509c3f7f2bd088df7a95cf7546d46e2cc5faba2",
+      "bytes": 2376
+    },
+    {
+      "path": "logs/rsl_rl/wuji_cube_wrist_student/initial_bc_20260930/student.pt",
+      "sha256": "36e0f48ed8bbccd0dec634f4a6d96ee599b92d69b93e213c2ff0881cab3b68c5",
+      "bytes": 1110719
+    },
+    {
+      "path": "pixi.lock",
+      "sha256": "8a4a941bf813b53e30b1d88b4675fd75fc323d74cf397b00f28a7e8b967fe9ff",
+      "bytes": 163101
+    },
+    {
+      "path": "pixi.toml",
+      "sha256": "2345639b15fa948bf932a414cb36156ceb3ed9febceb31adbe262e607d9bea45",
+      "bytes": 2630
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "fba30e4765a52b501ce2bb062c7e4bbebb992e4ecb75ce837c75720ccd1f64c4",
+      "bytes": 2576
+    },
+    {
+      "path": "release_models/policy.jit",
+      "sha256": "4a5d4c1147ec5552de8e7fde0c18a0ad5c4dcc34120a3985859a3f57c4a75702",
+      "bytes": 1124314
+    },
+    {
+      "path": "release_models/policy.onnx",
+      "sha256": "0406b93d678563bc7e1ebfb296eb4af5ab68be05529ebcf9504c4528ad29c232",
+      "bytes": 1108261
+    },
+    {
+      "path": "release_models/policy_config.json",
+      "sha256": "12a8eba196d4a4084ab8cfbfeeaaecb60860c72a235b5b8e8fb95a9ae2028cdc",
+      "bytes": 3939
+    },
+    {
+      "path": "release_models/verification.npz",
+      "sha256": "14337de0a67d4b905af17abf520f6bd28f8020fe5f01b43e22b35811b73bcf5e",
+      "bytes": 29580
+    },
+    {
+      "path": "scripts/benchmark_apriltag_workers.py",
+      "sha256": "a7ad365d357241a9f347b78bca340ad3097c085c458260a0ddcbadd90f7056df",
+      "bytes": 2130
+    },
+    {
+      "path": "scripts/check_cube_wrist_tags.py",
+      "sha256": "0717fbe4826e6c3543e377ccbe55b41eadfa4bf3f861fe4d2f8834973439c3c6",
+      "bytes": 12279
+    },
+    {
+      "path": "scripts/dodecahedron_harness.py",
+      "sha256": "b73a91280f724a3b549ded4f164fbc0a1797b84e1fdaffd14996410fc027224e",
+      "bytes": 9006
+    },
+    {
+      "path": "scripts/eval_apriltag_pose.py",
+      "sha256": "b0ec8684ec41c601a977eb5e91adee710da06d4a8c8d9278c33853b080546c36",
+      "bytes": 6543
+    },
+    {
+      "path": "scripts/eval_apriltag_teacher.py",
+      "sha256": "5edd028a50f92b8635c15eb3cafd93decc14449ae8ca4f038eb968eb8f76662b",
+      "bytes": 9931
+    },
+    {
+      "path": "scripts/eval_cube_downward.py",
+      "sha256": "6ffea67ba0bf5cbae8d31498353640690ba5a81f38573eb9089ecdcdead5e9ba",
+      "bytes": 10099
+    },
+    {
+      "path": "scripts/eval_cube_wrist_student.py",
+      "sha256": "7d25b3c5c24b06ed0d54c15391589866156dca63bea349f07e1761d58ce241eb",
+      "bytes": 18678
+    },
+    {
+      "path": "scripts/eval_dodecahedron_privileged.py",
+      "sha256": "27517a3aa6a71005a3e68dc365f3fcbe141d2f0adcd3fb80ab798d30770a29cf",
+      "bytes": 5661
+    },
+    {
+      "path": "scripts/generate_dodecahedron_apriltags.py",
+      "sha256": "81f26d3762290e57db8d517e84ae39e61ab3603300d3d9b5036da1d104679f73",
+      "bytes": 7856
+    },
+    {
+      "path": "scripts/generate_dodecahedron_labels.py",
+      "sha256": "49ec2da0b66f6b51e7bdf951e2338fb4873ef5053b76b2e14da1ed2afba6a1b6",
+      "bytes": 4426
+    },
+    {
+      "path": "scripts/list_envs.py",
+      "sha256": "fe8933401a5c9a2be6a6a54874121c2099277694f55d90beecbd8f59ae64a2ba",
+      "bytes": 588
+    },
+    {
+      "path": "scripts/play/play_rsl_rl.py",
+      "sha256": "3ad994a444ebf0a42ea88249f996c052d836c482a6083000f84881a7a69fc49f",
+      "bytes": 1868
+    },
+    {
+      "path": "scripts/record_cube_downward_demo.py",
+      "sha256": "15743016a3f661843374ff9e9e8dcba50d5dab754324e2804666a335ef3fc921",
+      "bytes": 14851
+    },
+    {
+      "path": "scripts/record_video.py",
+      "sha256": "4b388438c2ee3036d1249b398f8379cb3822f989605cd04246ff13b43abce851",
+      "bytes": 2968
+    },
+    {
+      "path": "scripts/requirements-apriltag.txt",
+      "sha256": "e837c4dfe75a5599d964245c2d601d5b7d925199d0433ac900b04eedc578e12c",
+      "bytes": 195
+    },
+    {
+      "path": "scripts/requirements-dodecahedron.txt",
+      "sha256": "3282bde10f3603422c1baf5ec8d6b719855b4280ed5392fcfcde0bed6ec33b13",
+      "bytes": 480
+    },
+    {
+      "path": "scripts/search_cube_downward_grasp.py",
+      "sha256": "76b4787448a16be8dbec1b99321ea45cf0bf83fbb5788dd974c7b4617405d88d",
+      "bytes": 3160
+    },
+    {
+      "path": "scripts/tools/export_wrist_student_release.py",
+      "sha256": "63a5c09b5c7ae2d7452aa298620775dbec9d090607970ca0ff2db629e10e3b4f",
+      "bytes": 4096
+    },
+    {
+      "path": "scripts/tools/extract_wuji_wrist_assembly.py",
+      "sha256": "346bb4b2da4a4b18c4e3018c93301ad4b06660a9ed1a64751a05243df6062be4",
+      "bytes": 5809
+    },
+    {
+      "path": "scripts/tools/finish_cube_wrist_dagger.py",
+      "sha256": "4dc5d3374a0bd174859557012dc66c3c959fa5e8d3d1952dd5b24f0d557b9cb2",
+      "bytes": 3290
+    },
+    {
+      "path": "scripts/tools/package_wrist_release.py",
+      "sha256": "cf4592c869470132c91b3103ff88310ef61caafc3f7ea4d519f57a356c8fd0e6",
+      "bytes": 5630
+    },
+    {
+      "path": "scripts/tools/render_cube_wrist_assembly.py",
+      "sha256": "d0acec84b7b838054e9b66744b06df3af93d53873132b63adb310b63fe425cdd",
+      "bytes": 4466
+    },
+    {
+      "path": "scripts/train/train_apriltag_pose.py",
+      "sha256": "d1ad5675dbd8809a406baeccff4e75b908ab355469c5a82ea57a5d8a48ade087",
+      "bytes": 10912
+    },
+    {
+      "path": "scripts/train/train_cube_downward.py",
+      "sha256": "49d4a811bee6fff28875b5b08b64a9888e1c10f724d65a7c147ed977c9c17121",
+      "bytes": 10448
+    },
+    {
+      "path": "scripts/train/train_cube_downward_any_pose.py",
+      "sha256": "c224fab1acf386e911cca6c29a917cf213dd1ff816b05ca39a71df256126f5c1",
+      "bytes": 5004
+    },
+    {
+      "path": "scripts/train/train_cube_wrist_dagger.py",
+      "sha256": "7df5272e96f5ca24086d8967fe1668bf066895ba9fdd321c8f4c077785e05e74",
+      "bytes": 8076
+    },
+    {
+      "path": "scripts/train/train_cube_wrist_student.py",
+      "sha256": "d0d3f8ff86a13ae07a25fcdc44e9f84e66bf5886f8730165989af52b83dbf504",
+      "bytes": 5506
+    },
+    {
+      "path": "scripts/train/train_dodecahedron_downward.py",
+      "sha256": "5f27d3ad4730d3ffc1a0fc2d47082beb5b7be529c1207c182909e5a3720cccbf",
+      "bytes": 6946
+    },
+    {
+      "path": "scripts/train/train_dodecahedron_sim2real.py",
+      "sha256": "3a56140d36b5e1a6e2dced8c602c051c64841e539638f55dd410eaa27075e316",
+      "bytes": 4515
+    },
+    {
+      "path": "scripts/train/train_l515.py",
+      "sha256": "0e7dbd2bab5b9a9b60b532451123608bcd140514ed91b0142f5b47c14f68f795",
+      "bytes": 5308
+    },
+    {
+      "path": "scripts/train/train_l515_distillation.py",
+      "sha256": "ea28d151a0507418e3a9570a4c0487119ada89938d2402b110b09935814c4208",
+      "bytes": 7856
+    },
+    {
+      "path": "scripts/train/train_rsl_rl.py",
+      "sha256": "4cdfac6764cc32b5137695b1df6f5b8ac63dc186a95377c201c39d47a6a3ed81",
+      "bytes": 6537
+    },
+    {
+      "path": "scripts/verify_dodecahedron_apriltags.py",
+      "sha256": "4ff240e3669d34598e2d17962d6e706b6905719fc9cde32670b518a6d5a1b46f",
+      "bytes": 4639
+    },
+    {
+      "path": "src/wuji_mjlab/__init__.py",
+      "sha256": "3d56151935454c95c5fa9ef30223ca59540b7c5f196e03ade78275eed593b324",
+      "bytes": 107
+    },
+    {
+      "path": "src/wuji_mjlab/assets/README.md",
+      "sha256": "1be84aaf7b248117aeea77ddb3142e4e02abd37eb3011dc334149568d7409ac7",
+      "bytes": 180
+    },
+    {
+      "path": "src/wuji_mjlab/assets/__init__.py",
+      "sha256": "b65b2a39c93e46603dcabe3bfe2d1b9dab2bebbfe2e1b841175d7a58202d488a",
+      "bytes": 130
+    },
+    {
+      "path": "src/wuji_mjlab/assets/object_lib/__init__.py",
+      "sha256": "dffe123f5b697f1c4a8a0bb5d102ffb35a38f429266b5fe7ea0519a81bc79eff",
+      "bytes": 567
+    },
+    {
+      "path": "src/wuji_mjlab/assets/object_lib/discovery.py",
+      "sha256": "fc3d857426a274c8dfb20b0a5fa3b353cea14b0f3bbe11e7cb8eae70ec5f3859",
+      "bytes": 3482
+    },
+    {
+      "path": "src/wuji_mjlab/assets/object_lib/object_lib.py",
+      "sha256": "a60b3feb5278f309a428ad46ce1bd43448b043764c7ffee4d844e8db6c4dea58",
+      "bytes": 13882
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/__init__.py",
+      "sha256": "632df1ff18343253c25ca82897f56a17cfef69381786aaf3a350128f56d08457",
+      "bytes": 203
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/__init__.py",
+      "sha256": "33f64c2c817afdb20491cecfff50bc9a21bda7ff9f6b5ebe131d21b64cf52b33",
+      "bytes": 68
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/apriltag36h11.png",
+      "sha256": "4d4c104823cdd27522f1c2cd4e95377f848b449c1a93d3bc896d0b4b76310d9d",
+      "bytes": 27196
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/apriltag_board.json",
+      "sha256": "bf4b4213a9b56bfbab2166cc673393d3b6b8342d729a5b897d6ac97a9ff50f05",
+      "bytes": 17378
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/apriltag_print_A4.svg",
+      "sha256": "739f1e5f5aa27a9507f11475552b4628f0adf7c72de579e71e6b9531da898a09",
+      "bytes": 43877
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/dodecahedron.obj",
+      "sha256": "96be7304110d7c9174737c98ce7256cbf9c1995778a171ff213e1241ef110675",
+      "bytes": 3060
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/dodecahedron.xml",
+      "sha256": "58288aec791f9f9b4a6be931113b5bbb2d4d4706b88e96b22ca02880a48503b0",
+      "bytes": 1304
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/dodecahedron_apriltag.obj",
+      "sha256": "888cdaacabd25f455e4a5e423b605b4ad9f3eb737ae9f7a25d2e8c6255d735a9",
+      "bytes": 3448
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/dodecahedron_apriltag.xml",
+      "sha256": "8aa41af8e515cbeb25c80ac60280407df4b9142a60d830ffbc01cf15e030f83c",
+      "bytes": 705
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/face_labels.png",
+      "sha256": "b8984ede3cdfbeba17b0d730cb08f967114230d4461b2f83fcb965bce2cdb135",
+      "bytes": 60400
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/dodecahedron/object_cfg.py",
+      "sha256": "2bf43db56ff867eb4ddb612fc841384eff7b948fb68e010588663b429a41a6f7",
+      "bytes": 1669
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/__init__.py",
+      "sha256": "eb5bb22ab71b960f82a47dcbb9202dc7568ebd4f600d7973ea60323d5e8c66ca",
+      "bytes": 189
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/inhand_object_cfg.py",
+      "sha256": "a3ff51a50fd9888cb92ba6b5e854509cfafadb905fe4b63ae3947fdce9d0cb52",
+      "bytes": 250
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/meshes/dex_cube.obj",
+      "sha256": "2b88294ed0228f1df0c6d070bdecaef10c214d9cea8e5edf393d3eaddc4b014d",
+      "bytes": 1151
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/object_cfg.py",
+      "sha256": "9994c7b4ddb3a8969c8f61b982137c20ab8335d4457eaacad0a8179ed5eb8b9f",
+      "bytes": 2308
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/dex_cube.png",
+      "sha256": "0ec662a344912792302efc5faf89564b4bcd2c71f3437a4686b45b732184f647",
+      "bytes": 33773
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/fileback.png",
+      "sha256": "6c3d1c75caa2755b8f776828412172a41e30b986137a30c1dcc531efd04e6e56",
+      "bytes": 4445
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/filedown.png",
+      "sha256": "74425e89f13641d550b0d13086066960b9125aff41fd666fb288c94d3b55477d",
+      "bytes": 1143
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/filefront.png",
+      "sha256": "7e6e5024617d0273f2bfeb9b6d5b89770fb95e054450d29458254709e12b0b27",
+      "bytes": 5516
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/fileleft.png",
+      "sha256": "6446d6f70fc5bb3f1923bb3f985a582f939d4871d8d9d16821166f5f4b11733e",
+      "bytes": 1035
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/fileright.png",
+      "sha256": "21eec1134ce31af3906493654413cf8f76f7333e4245bb3a801c9daab7073a76",
+      "bytes": 3801
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/fileup.png",
+      "sha256": "d573fdd4a3e37b34e022305c0107cc0774530eae4395df9fb743d1abae7ce1f9",
+      "bytes": 6437
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/grayback.png",
+      "sha256": "a91d72998be64fabb42c0b9bde97fd7b824ee391127062e77eaddd7aa6b197b1",
+      "bytes": 3579
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/graydown.png",
+      "sha256": "26c2e32b6b3a9a0188bb0746a671641e93f08331eb642b0e083aa0aaf95a40ea",
+      "bytes": 1001
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/grayfront.png",
+      "sha256": "fb509a17a9a72c8cd77dac5e571e1bdc41d014f9b7c252d7a42acf47693e575b",
+      "bytes": 4455
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/grayleft.png",
+      "sha256": "b7d75257afb0bd40b0c275a2b5fc06b18d85cdb9a24fa105dee3c3845d0128f9",
+      "bytes": 930
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/grayright.png",
+      "sha256": "bdb03ebf5a157200523c374a8dd2e4c1e86bd9352bea6d6a746a15b62bfe7ca4",
+      "bytes": 3825
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/textures/grayup.png",
+      "sha256": "b9f17448dbf9b0b8f59b0a7682618a1324f902f9fa9e0dc6adb1675b2b550198",
+      "bytes": 6783
+    },
+    {
+      "path": "src/wuji_mjlab/assets/objects/inhand_object/xmls/cube.xml",
+      "sha256": "56aaf25d5183be78fdf6075f2fa7a4ab2707280a05bfac0df235ebb68bac084c",
+      "bytes": 2229
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/__init__.py",
+      "sha256": "04b0721471d2b69ce1ddce655838133781338b65e285c8cb67ddd407fdbacd91",
+      "bytes": 245
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/__init__.py",
+      "sha256": "e8f3e0d4b78b8a67b7ba3c9cf60b2920e5d4fd2b6e567db9790c77083ebfd808",
+      "bytes": 249
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link1.STL",
+      "sha256": "eea2c85844ee945ab732cd40a6ed0558aa2493439186bf31c405dbe5f7f1eb3f",
+      "bytes": 277684
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link2.STL",
+      "sha256": "b88c4f617b42edb66ffb6a4bea17a8186c4f44c289d19dd950d6f515ae127773",
+      "bytes": 97784
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link2_softbody.STL",
+      "sha256": "50b3dec11285a279b7920e1c19abd4ef6b47ca88118e5d3dbec01917c674c69f",
+      "bytes": 291084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link2_softbody_simplified.STL",
+      "sha256": "bbd16cf73a292c9f2bdf54ab12a351991e31b60a1226dda2be5a42c8c824d82d",
+      "bytes": 120084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link3.STL",
+      "sha256": "ff11ee83841affaca12471ba328ccd7f55d66d500df7148c23196e3b1777071d",
+      "bytes": 276084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link4.STL",
+      "sha256": "08f86a63ba803e994f56c3f6237df9ecd5344790f9019a892e5db5b82de8c9c5",
+      "bytes": 533884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_link4_simplified.STL",
+      "sha256": "1d07df887372b05fa21eff5f53956f437e19c5c9e2f22390296d6494241458b6",
+      "bytes": 60084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger1_tip_link.STL",
+      "sha256": "079e5604eb96c4474aeb2462859ec4129c11515b58f79745f2d1b0995aaa377f",
+      "bytes": 533884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_link1.STL",
+      "sha256": "b6dd467b88056d3fb03c93d33d2bc3849c492e8268934db4d66e437eefa91408",
+      "bytes": 53284
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_link2.STL",
+      "sha256": "7d3fc87fc0488ed5dd26e8117b31640c74e1f8a5ae8fc96fae028496927a3d6c",
+      "bytes": 287184
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_link3.STL",
+      "sha256": "0a6885e7a1cafaabeaae677245171cdaac651b3e81692ac3efaf27d57bbbefe9",
+      "bytes": 177884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_link4.STL",
+      "sha256": "d60eaa1a034816ca303043021de897c8af5aeb390e378cdd4e7acec8914c7e0a",
+      "bytes": 502084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_link4_simplified.STL",
+      "sha256": "a9057641a06eb596e528fd0520ce82105b8347e53cd4bad9ec41e38054a052d9",
+      "bytes": 60084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger2_tip_link.STL",
+      "sha256": "e0659a4a9861d5f2a77a0e119eaf90cd4ec4ab9f6a413bc4e8498f1290d74e00",
+      "bytes": 502084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_link1.STL",
+      "sha256": "cb6947ad984717d01c721273f278f9b3936e5ace49618d1f334d363ece5caae6",
+      "bytes": 54984
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_link2.STL",
+      "sha256": "4d243229f6fab0d95dbe2b23929eee3d3590debb11866df9216349ce0430cc63",
+      "bytes": 292384
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_link3.STL",
+      "sha256": "4ad8025cd12b8d5014a2d1faa916d71c3121c95f1017a67c5c8d2b209e7ae17b",
+      "bytes": 181284
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_link4.STL",
+      "sha256": "2eaeec0d376b478bdd1c77f0bd8bd9233025b49c704482237f9d401c22ab8a32",
+      "bytes": 508484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_link4_simplified.STL",
+      "sha256": "96794e5e75122133978e4b2f3476f93374adb111fa1216d62e8a09335e808b9f",
+      "bytes": 60084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger3_tip_link.STL",
+      "sha256": "3d98a3df8bb7488a6976494b324730ff890b81d3523d3fc7c1a8b38980d82aa1",
+      "bytes": 508484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_link1.STL",
+      "sha256": "40da6c4e56c1d2c5fbca71dc55dd7ff4c484668e36564be8645344278504d19a",
+      "bytes": 53484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_link2.STL",
+      "sha256": "6f737625f472fb3ef598034de65a99aac528dd30b369edbc1234cfdf857a52c1",
+      "bytes": 290084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_link3.STL",
+      "sha256": "77180c501eb61ee6360e362fd30c10afd71d40d04b26721b817cd342c4154e14",
+      "bytes": 177784
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_link4.STL",
+      "sha256": "14572cb8286e6a703ca89f0132681cc5d34c90b8a45ec463221f87053d1fd355",
+      "bytes": 503884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_link4_simplified.STL",
+      "sha256": "90009af393dadb8079c9f1c339de7ac00681f52c6e322958b1c13710e1b59426",
+      "bytes": 60084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger4_tip_link.STL",
+      "sha256": "70d0aa351e87efebff4d6591823086105fcf01a661e7d09e1904fdd3f92c427c",
+      "bytes": 503884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_link1.STL",
+      "sha256": "7ee1d949a14509bab3825e47c6483eda39f903cc8299b73ce7f9f8424a6095c0",
+      "bytes": 53484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_link2.STL",
+      "sha256": "bc3b468439a6fbfc2b75846878fbcddd47f7d3d45c230784b4d819e6c6fcac64",
+      "bytes": 289584
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_link3.STL",
+      "sha256": "18f5795ca144ad99fdbfb4a570e41ef41f537a672dfc69de285adde9c15be5bc",
+      "bytes": 179184
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_link4.STL",
+      "sha256": "2b1cb3b57968bdfa6ac86628e6cd37cd273541e69fc9db172bb203d65a0924b2",
+      "bytes": 513484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_link4_simplified.STL",
+      "sha256": "5fb80ef474a5d120262985ffe6198b218ea863dd1b258af63e823db9c0b97fd1",
+      "bytes": 60084
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_finger5_tip_link.STL",
+      "sha256": "c30782cfa15847fda2d461bd40b2cc003aeda68f44fba63fe8cc716d5665156d",
+      "bytes": 513484
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_palm_link.STL",
+      "sha256": "5fe2d111265b1fb269d23bba7c7438ada3228319363d6a793e70eed3e6ce6583",
+      "bytes": 419884
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/right/right_palm_link_simplified.STL",
+      "sha256": "a3e045ac634aa7cdd225e59cc6f7a063ea4eef854b2fa5630ee92e06514222bb",
+      "bytes": 100684
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/wrist_assembly/5e17d2b4a7b9c5bd.stl",
+      "sha256": "5e17d2b4a7b9c5bd7f920990b7c10b377ca7fa2038f3cdcdd2e541d50dd96872",
+      "bytes": 2101584
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/wrist_assembly/9ece831387ac3939.stl",
+      "sha256": "9ece831387ac39396f8e1e1e848b16bcdf433029a74f7f4f47542ebcff2fedbe",
+      "bytes": 138584
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/wrist_assembly/camera_calibration.json",
+      "sha256": "f003cd095e76413e36fdd1c4e4019f563a4d1769f9882d3a32c4eae44e4b2e05",
+      "bytes": 690
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/meshes/wrist_assembly/source.json",
+      "sha256": "6c2e8b7c35a5c4bba6a974f42efc09984d2679b661b0fbf57f326cc812868c6e",
+      "bytes": 1369
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/mjcf/right_mjlab.xml",
+      "sha256": "960e3068a4d4ac3dfbbb424bd278bd96702136d6895c2e9fe71f6646559b166a",
+      "bytes": 23974
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/mjcf/wrist_assembly.xml",
+      "sha256": "a807419c9d026a134c7ecc5e15cf5b097859583f543ac4f60afd48aeb1f45f72",
+      "bytes": 2752
+    },
+    {
+      "path": "src/wuji_mjlab/assets/robots/wuji_hand/wuji_hand_cfg.py",
+      "sha256": "91c35a06021aba90e22bf359d9b5fb23b5ec03b818152492426b56909da51857",
+      "bytes": 3999
+    },
+    {
+      "path": "src/wuji_mjlab/perception/__init__.py",
+      "sha256": "9b7a66b05bfc65df4fd5b47e93628c32c41ac544821fcfa19aa188e7148d64fa",
+      "bytes": 81
+    },
+    {
+      "path": "src/wuji_mjlab/perception/apriltag.py",
+      "sha256": "f19fb32700bee0644345ba5d4cf6ed3f9411c08f93e7509a72171fde3603fc9f",
+      "bytes": 6385
+    },
+    {
+      "path": "src/wuji_mjlab/perception/batch_apriltag.py",
+      "sha256": "50a4586095f4704a4b933f0ebfbafdcbb995866a0045cf87f0495a9f7f6da808",
+      "bytes": 1521
+    },
+    {
+      "path": "src/wuji_mjlab/perception/cube_wrist.py",
+      "sha256": "c2b693bfca2e27bd4baed900946d31e12b89c131048802c9d48a6356b6bca356",
+      "bytes": 1906
+    },
+    {
+      "path": "src/wuji_mjlab/rl/__init__.py",
+      "sha256": "2105ab921cb1451b0f9f5c743edb757fc0583aab22eabdfca971749f8afb7d4d",
+      "bytes": 154
+    },
+    {
+      "path": "src/wuji_mjlab/rl/runner.py",
+      "sha256": "9ad3950d285eda9d395ec055aa795d65e92d0406f4318f2fc16c27c4aa0175a4",
+      "bytes": 2428
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/__init__.py",
+      "sha256": "684b6bc72808ef79454b74590e668ba6c9417d96acb83d2fce902d0a7eb899ee",
+      "bytes": 242
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/README_zh.md",
+      "sha256": "82e82e54e90638a6ebe709fbcfffb1a10b859d8c45761b316173b4a6968042aa",
+      "bytes": 4513
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/__init__.py",
+      "sha256": "a9532205ad9ef988b1376cc23b3a59b3c143d217baaa2ce4c7f90bc7f5b01024",
+      "bytes": 495
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/env_cfg.py",
+      "sha256": "e89147320ec3a1b7a5176cc0ca1f254b9471ca0583d0a7ece06bb0b7843a58a6",
+      "bytes": 5338
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/l515.py",
+      "sha256": "d4fd7365f99d3df801307a8fdcfa6cf0ae7b7f0be0bd68204f83b6088317b223",
+      "bytes": 8471
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/tag_pose.py",
+      "sha256": "69f6e2969c2aca6546a4ed348123d032a64a59b9110ca037acc1b7c07316eaba",
+      "bytes": 8994
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/tests/test_batch_apriltag.py",
+      "sha256": "942d0869b907c211a8eff2b445321f1f95d7af5480f5083a590c90d8b59894e2",
+      "bytes": 1467
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/tests/test_dodecahedron.py",
+      "sha256": "cf6465a7359e125bc357ac3903183e03b801b7681641d2a30e06a50f4192f7c6",
+      "bytes": 3063
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/tests/test_l515.py",
+      "sha256": "0520e0fc386a99000b37acb01f2a1ef1ef3b39f3ee2ce56b651f5f5624c3901c",
+      "bytes": 4962
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/dodecahedron/tests/test_tag_pose.py",
+      "sha256": "8e83688129dee58ab1656f98c2912c1cdd0f14a6b554ba297dc2c6d332499208",
+      "bytes": 5491
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/README.md",
+      "sha256": "536e4bbababad8200d24e54fa7bae222ead64b03949938a53259c417316dc0e6",
+      "bytes": 7038
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/README_zh.md",
+      "sha256": "ee67a04cc2f4e4eb09fdeeff2aa037825e49b7d462e732ee020ba7fcccea22e5",
+      "bytes": 6888
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/__init__.py",
+      "sha256": "e600fe76680f3198d55ecd636af684486d1d3750704c409495f60afb536d73e8",
+      "bytes": 121
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/config/__init__.py",
+      "sha256": "fbb1a32ec5fdccb0b224c98f9a2daf316c9e19a9e1a9b49c80b2c9ae83ad6405",
+      "bytes": 117
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/config/wuji_hand/__init__.py",
+      "sha256": "ea91c24ecd27e38588fd9da546e26ed2c6f16326de9bdd8636483bdf71d1b7da",
+      "bytes": 2188
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/config/wuji_hand/env_cfgs.py",
+      "sha256": "e4a93d49a4ec4b1261f257e490cdacca4a1d6116ae89570aa6afb734dc3d9d0d",
+      "bytes": 3613
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/config/wuji_hand/rsl_rl/__init__.py",
+      "sha256": "6e81802ca2ce84358e28e316f6de539e0ac391710cf43cd4bd07523b00650cb7",
+      "bytes": 471
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/config/wuji_hand/rsl_rl/ppo.py",
+      "sha256": "409f8a26e47d2be8477f40fe8b0606b7e177e0a78ed334fb704ba2cbeec65b0b",
+      "bytes": 1369
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/downward_grasp.py",
+      "sha256": "56822da47ea5f8bc237b6749bd26f74e8ef4156b3e758a8c77a4cca6bd962373",
+      "bytes": 845
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/__init__.py",
+      "sha256": "352592b934cfaf6963a639716bece2a71f1e32a85c5ce74b6cf79f44345961d7",
+      "bytes": 1012
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/actions.py",
+      "sha256": "9231fce2175eeb063bab1bf44924e3b85984df5fdc2fff4cab4c99dbec1a63da",
+      "bytes": 2238
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/cage.py",
+      "sha256": "f44b8f18fe4d89aa61adc99107b3fcd519a1943e10c43ddb96797ccea4bb3f24",
+      "bytes": 8660
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/command_visualization.py",
+      "sha256": "71fb45fdd849eb4ee23e22885760b939887f18077517f9456d11d76c9d54d088",
+      "bytes": 8584
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/commands.py",
+      "sha256": "15a041f79e2e5ed9c00cb20ab8358c31f31244c9cb52ce54fb4de2983411a855",
+      "bytes": 12224
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/curriculums.py",
+      "sha256": "19c9b3d52d23dcf327c7fe558fa7936b63a1fb24a4258e7e25887a6d221bf1ef",
+      "bytes": 4975
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/__init__.py",
+      "sha256": "e8027925edc512a3c3ab5b233f499814693eb58be4ddc83d92f02e932b7c28ce",
+      "bytes": 145
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/curriculum.py",
+      "sha256": "7f72ee148f619ff81576b99229001bbb282545d7b270d42cc4a6dbc32a187498",
+      "bytes": 4127
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/episode.py",
+      "sha256": "291f284c367d71e099fec6c9a166c48366684079696dd7f3903d51292c2df48e",
+      "bytes": 4381
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/joint_reset.py",
+      "sha256": "2f740ad64b2b7733b67e2f7fd5534990ab421a0ff1b21bf42a6ece9418a202a1",
+      "bytes": 4836
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/randomization.py",
+      "sha256": "dfcdcd0f35a338e9e1efe3412557cb5655de7d5540eb2c857d1a8bdf2d12541c",
+      "bytes": 10319
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_impl/state.py",
+      "sha256": "112201ecbe186126d8ad6a9683c9759d07588f858b7988f02526ee239febf7a3",
+      "bytes": 866
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/event_utils.py",
+      "sha256": "e1f57d64fbf99d76fe76d4b565c5d43a04dee67630d6df63f975b9d6fb54fbff",
+      "bytes": 2164
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/events.py",
+      "sha256": "e750d4082aa32faf1a6b6c57daedf30ea4599c59d8e2275117f746055f3e6787",
+      "bytes": 1324
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/metrics.py",
+      "sha256": "73af641b90f13da567f51f80c6c421e9ae6805b04a1f0782a9984a67f9e08924",
+      "bytes": 8785
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/observations.py",
+      "sha256": "7c048770f115b0e1a1967372cb4065d9c25be2fd0efdfc97ee1bba05da8598c3",
+      "bytes": 14121
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/rewards.py",
+      "sha256": "517783b4c85c9616cb9de3c9b8c4f7f881740a203fe16802e2b10bda61c7a954",
+      "bytes": 10881
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/terminations.py",
+      "sha256": "e14912b22eb28287d0d717116cd855244a4bae79a00f7a81709e7391b74ccec7",
+      "bytes": 542
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/mdp/types.py",
+      "sha256": "1bd30c0ad553bb97595a210290b82c969ad92907d200cf26f4c7ffc4298897cc",
+      "bytes": 428
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/reorient_constants.py",
+      "sha256": "bdcc35edb5d40e7e2916ada87e34afd69ee81f5762022e278f8e1bcd8200d494",
+      "bytes": 2951
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/reorient_env_cfg.py",
+      "sha256": "cffe1a26316de382ccbb113bd9f352776fe4df33c5e84e78898342e909a4f0d2",
+      "bytes": 4610
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/reorient_terms.py",
+      "sha256": "bd5b518dd2bd8e1cc98d4b1e6fae5fe46fd611cdf5961f6b4f0e4327f416d208",
+      "bytes": 21112
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/scripts/eval_success_rate.py",
+      "sha256": "778fc59ec1028f64c78b3453121351d4e608826db9482d526f0a2ffacc632bc7",
+      "bytes": 761
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/scripts/export_onnx.py",
+      "sha256": "0a2b8f7720aced7e42d833754221101250f9e47a4e9c052c4b9a1ce3b58d43f7",
+      "bytes": 663
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/scripts/view_task.py",
+      "sha256": "8c923f2790bc979a33d2be55e42989d148810691b5aee1a3a056cf0874226bfd",
+      "bytes": 3555
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/scripts/visualize_frames_viewer.py",
+      "sha256": "65d26b84893f577323b78e0228b37c25251e580bfd4805f38e3863596a8c6f92",
+      "bytes": 14511
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/conftest.py",
+      "sha256": "0e4aa590b04ef53d406557f4ded9683d7f64b1dac1f4ed16c12bedfb69e1f7f4",
+      "bytes": 404
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/fakes.py",
+      "sha256": "cb38234a7e34c7b5c967b762e209c127b2d7b13d9d1a6f3c4132086586e11f11",
+      "bytes": 9912
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_cage_counter_contract.py",
+      "sha256": "b7525ca3bc3b3f01cc84ae85167a83a94bff80d5c98f09dc7fde0a0aec38ebd2",
+      "bytes": 905
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_cube_wrist_observation.py",
+      "sha256": "fdb165014865c0381cb08974e100c8c0cbdf9fbf46bf202076857c1a07d5918d",
+      "bytes": 2503
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_event_episode_contract.py",
+      "sha256": "7f58594b7f48b212dee66631b6374b1076ed9448cf251371ea2ea4b434ac5c35",
+      "bytes": 2670
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_event_joint_reset.py",
+      "sha256": "d5ceaccbda021a5b832b3d53d48ce804f584e834f72ada03e149196840b952de",
+      "bytes": 1708
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_event_randomization_contract.py",
+      "sha256": "6460177d2dd6f6ce63d651ca16cdf71663092d1abcaf6bd65df6b68fa91c8858",
+      "bytes": 1255
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_event_state_contract.py",
+      "sha256": "7678771f0545f11e4dffbe0cdaf30a3b37cb5efe306667c699596a56c3b626c7",
+      "bytes": 3967
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_export_onnx.py",
+      "sha256": "50bf86dcb79d2a2a2e0ff49d9b44aa89ec798939a710661aa91502db3833a272",
+      "bytes": 3997
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_goal_visualization.py",
+      "sha256": "69a6a12c68c0516e3c6f7767a1a215372007b18970d45b8df2332d0f29e9e7bd",
+      "bytes": 5261
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_pipeline_invariants.py",
+      "sha256": "23133a862ad38deb8ff062c6fbe5f1c4621f08c1737bb86a577fbc8eff502c25",
+      "bytes": 18832
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_public_naming.py",
+      "sha256": "d3b156f359d67a501abe8aa82d1e87936c96a116fa31ccd913c129d6f78707b3",
+      "bytes": 2241
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tests/test_reorient_rl_cfg.py",
+      "sha256": "c60d4b69e69185249ea551e6c1f97aed8bcd4f90e10bbd438157c6d5762fc12d",
+      "bytes": 1463
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tooling/__init__.py",
+      "sha256": "95f468b1258a38e341a9bfcc11e88edc01a28e0a7775c1ba0e8bc50503525c4d",
+      "bytes": 156
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tooling/eval_core.py",
+      "sha256": "81723b6b08274aba8cbbf4771aa6ff68dbb1f63d90e69d48e6e7fea76c74aa67",
+      "bytes": 29153
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tooling/eval_display.py",
+      "sha256": "390070cd8383be30d6c2b3faa31598595e03c73204be07877350e4111bbdf75d",
+      "bytes": 5919
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tooling/onnx_export_core.py",
+      "sha256": "2a4bc176df8e9bc8405cdf6043c0d0b7966b7017bc92fe71ef99b436c9925916",
+      "bytes": 13934
+    },
+    {
+      "path": "src/wuji_mjlab/tasks/reorient/tooling/scene_builder.py",
+      "sha256": "21c4dd4140b152cd06d37ffba8a7a73b538bcc54e462df230a25bc3f2abce04d",
+      "bytes": 22247
+    },
+    {
+      "path": "src/wuji_mjlab/utils/__init__.py",
+      "sha256": "e0f9f64dd0b23e5c24dda56a738e0a06340f1cd5beb2c2cbcd2d8e4a9502a961",
+      "bytes": 137
+    },
+    {
+      "path": "src/wuji_mjlab/utils/cli_override_utils.py",
+      "sha256": "ba06346ab410af5f5fee1b9e384174918a584e9dee2b8cf40e8add55111975a8",
+      "bytes": 1146
+    },
+    {
+      "path": "src/wuji_mjlab/utils/curriculum.py",
+      "sha256": "8b1c23dd6f2a41e112ab6a367e94a8f8a14264c37d6b66386b1763014c9610b3",
+      "bytes": 958
+    },
+    {
+      "path": "src/wuji_mjlab/utils/math.py",
+      "sha256": "0ec6ca282c76c97470e7d3ae6d98d7b7dd7191426faa6a57e4f18214143890cb",
+      "bytes": 3988
+    },
+    {
+      "path": "src/wuji_mjlab/utils/override_utils.py",
+      "sha256": "f51c6e5234c35aacc0f27cba791415e85581705f0f21101d2156e442f1469f69",
+      "bytes": 2914
+    },
+    {
+      "path": "src/wuji_mjlab/utils/play_runner.py",
+      "sha256": "1f7cd60df92bab79030c04674f873b6b09c37a482fe05236e11f5fcf06f0f646",
+      "bytes": 9215
+    },
+    {
+      "path": "src/wuji_mjlab/utils/reward_decorators.py",
+      "sha256": "fa0d189c31cbfc5f939074b44e568186daedf07725695603eec94e6e870d133b",
+      "bytes": 1489
+    },
+    {
+      "path": "src/wuji_mjlab/utils/task_cfg_utils.py",
+      "sha256": "4cf1882bb185596cc826402bf3a844fb0bb1620fec1e1a09b22df63e120f92ad",
+      "bytes": 1055
+    },
+    {
+      "path": "src/wuji_mjlab.egg-info/PKG-INFO",
+      "sha256": "4ce8e0c904c4d4f244c5925de4f05593762a6ab5c8bb86da13460af072744846",
+      "bytes": 6796
+    },
+    {
+      "path": "src/wuji_mjlab.egg-info/SOURCES.txt",
+      "sha256": "5ed6f282058c66594ac49d3d4eb85db8559cd2369a82875bd66fdbd2a9887d0e",
+      "bytes": 6742
+    },
+    {
+      "path": "src/wuji_mjlab.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "src/wuji_mjlab.egg-info/entry_points.txt",
+      "sha256": "69b3fdd033e45be77213c097dec1fdd03dd539ac69fab29fc53c22df8133c6e2",
+      "bytes": 44
+    },
+    {
+      "path": "src/wuji_mjlab.egg-info/top_level.txt",
+      "sha256": "cb1ccc88d211ed808b1a99ae1e2569e70978afc8966c66fa51f6e88c260d8133",
+      "bytes": 24
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/LICENSE",
+      "sha256": "3f58bb6b9272e416b8ccbe65889463f75a2fdf66e0e5722513f8622fb23dc778",
+      "bytes": 1632
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/pyproject.toml",
+      "sha256": "4c1e76a04e10f520552473c20a18dee5a7cc70ecbfca58a07d46b46e93e8db17",
+      "bytes": 313
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/ENV_INTERFACE.md",
+      "sha256": "43143c1fe3a363035ebea138a29bf83f5b8482fdea21d2a48d4188bf8b5e8092",
+      "bytes": 8398
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/__init__.py",
+      "sha256": "9b4c420fef3ae39683544833b6d2efbb26aecfc0583ec59be7f4eeb748fecf66",
+      "bytes": 169
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/algorithms/__init__.py",
+      "sha256": "6acd61910754dcbb2409cdb9c8316daac66d042b676ab4661cf6850b2189512c",
+      "bytes": 288
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/algorithms/amp_ppo.py",
+      "sha256": "d21db4e6cbef676d4253e7aab89e0ec70e841a5d84e194bc70cf0dcf51222742",
+      "bytes": 21422
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/algorithms/distillation.py",
+      "sha256": "aa252beed9c48f5054c794f962aac00bf382a07cba33aa08a9258af44219ec2d",
+      "bytes": 15514
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/algorithms/ppo.py",
+      "sha256": "d14099fcbdffb42eaf7143c8dd549d7d9e57e4afc9ae49412b394732dd9de2fd",
+      "bytes": 25137
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/env/__init__.py",
+      "sha256": "33bfc9562580377c2ce6388c37b0df2b8e992c22ce46923443681cbbf1960d60",
+      "bytes": 208
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/env/vec_env.py",
+      "sha256": "4a72df2fbf9b3e162e0e4b10e0b473511f02ad8c3ebaab0b7993ddfd63a9fa43",
+      "bytes": 3898
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/extensions/__init__.py",
+      "sha256": "595fd79b13fa6c64cce1f20adb7440660a4c5e5b78749db4794554a782a1ccfe",
+      "bytes": 388
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/extensions/rnd.py",
+      "sha256": "e8f25627c04f4cf478cbbf1ec4c362276e80566a1222c75ba55f7b8e0f8471af",
+      "bytes": 9925
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/extensions/symmetry.py",
+      "sha256": "eb83c3f77e4cc3f3b3b18f7a592429761b7152c8ac1160c32e02562dc0987481",
+      "bytes": 823
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/models/__init__.py",
+      "sha256": "760789fd80e32c3c508b7e57c4a6eb0caa2ecd4c20f1356a1641411196083089",
+      "bytes": 437
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/models/cnn_model.py",
+      "sha256": "defa243b136c67d60b4ae8c87255c778f7f83848975aebee2bddfd7eab5028f2",
+      "bytes": 14385
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/models/mlp_model.py",
+      "sha256": "28208ee31318501b7af19010797ddfc4d5a2fdcefe25c2a244c30c32173349cb",
+      "bytes": 10331
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/models/rnn_model.py",
+      "sha256": "80c1d6452ef021e4d7b174231ed7abac1ed0db8de9604561f8060148d4333ccc",
+      "bytes": 9807
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/__init__.py",
+      "sha256": "8645ec57164fe914e85174f9f8f58c14ab1468c628f1d62c1bb03068d21057b3",
+      "bytes": 801
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/cnn.py",
+      "sha256": "4f5bab5f192c42180125f32a4af350108dd1c247e1e84c81f6cf4ea560037ccf",
+      "bytes": 7508
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/discriminator.py",
+      "sha256": "dda96e3fb1f0bf36b81ba4778339e599ddfc3bfd9374b049a829aff00ff3beec",
+      "bytes": 2963
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/distribution.py",
+      "sha256": "84614a50bb9f8f094de8d82ce2730f890789db5e86a5869f46adc8f46380093e",
+      "bytes": 13209
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/mlp.py",
+      "sha256": "bad934b364b26cd47b6d1612e00ace107a425ae4d272c0cd0c82cbfc57bbcdbc",
+      "bytes": 3613
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/normalization.py",
+      "sha256": "539e1193cebcc472585cd3df100946fb8d788c4aa0f9f5cbcb3387a64d312926",
+      "bytes": 4673
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/modules/rnn.py",
+      "sha256": "07f0eec06c7f2638edbdbc3ba25f56122a7941cb0543138f4a6b04675b2a97e6",
+      "bytes": 3879
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/runners/__init__.py",
+      "sha256": "26f4130a403414e13041b62a848d04da3fb0166757603950ea758b151d4b5aaa",
+      "bytes": 340
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/runners/distillation_runner.py",
+      "sha256": "7445cbaf3e1fa241d742447ab17d941a659c92b6f8365ef22c5d818923d9e275",
+      "bytes": 857
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/runners/on_policy_runner.py",
+      "sha256": "39358a0a60219fdb360df7acddf80f6a382837aa58e2ec0ccf875df4afee4825",
+      "bytes": 10316
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/storage/__init__.py",
+      "sha256": "2c3120b4820755c62bf64b472559f4ae6f06b3204a018e47ee5e55cc20a9fd73",
+      "bytes": 301
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/storage/replay_buffer.py",
+      "sha256": "db37c960471bd006f61b132ddf36ead9b8025ee5e98fb5c1d93e889447e6efbb",
+      "bytes": 1766
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/storage/rollout_storage.py",
+      "sha256": "ececf28e7412d24867066829cc443acae811f034f8e63975b90343947779918d",
+      "bytes": 16640
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/__init__.py",
+      "sha256": "6e2fd287e10033654430d90a9ecf5486bcf79ee8cac940e75df4fe7889e2b9aa",
+      "bytes": 661
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/logger.py",
+      "sha256": "b5ca89e57dfa0b340cf8e54d622355ce4b5f2455e3ce213ef89c9740d2e98202",
+      "bytes": 14761
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/neptune_utils.py",
+      "sha256": "a3446faf8d655b75feb215ff4df8598bc91ff5aab446a6349e9ced31bf3cc495",
+      "bytes": 3523
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/normalizer.py",
+      "sha256": "275d99f503516b2b3db96621ee331f7f769aea3240da0ac1b93499dde0054860",
+      "bytes": 1986
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/utils.py",
+      "sha256": "4d094c17e54ab09a0d37b14711157f638f0bd929d0f1b49a3f89b4c8fc67caaa",
+      "bytes": 15977
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl/utils/wandb_utils.py",
+      "sha256": "0fdc97e968bf9c47fed3c1beeacaab7d65769c5342b221f9a20ea2e64b2d407d",
+      "bytes": 3085
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl_lib.egg-info/PKG-INFO",
+      "sha256": "0da7fe3b6e0f371f0781dc6e390ed3683b468e8be7cd8ad6a10721b04178379e",
+      "bytes": 180
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl_lib.egg-info/SOURCES.txt",
+      "sha256": "7f8e733d3762074ceffe815d791095f79b093bba7d3da1c58ce392ca7242cf63",
+      "bytes": 1068
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl_lib.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "src/wuji_rl_libs/rsl_rl/rsl_rl_lib.egg-info/top_level.txt",
+      "sha256": "5a8481ac564411e416e6b2fdb8c6bf19c0ba86e0c299e8a3a82da1e67d27c67a",
+      "bytes": 7
+    }
+  ],
+  "motor_control_enabled": false
+}

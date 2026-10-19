@@ -1,0 +1,1027 @@
+{
+  "side": "right",
+  "joint_names": [
+    "B_fr3_joint1",
+    "B_fr3_joint2",
+    "B_fr3_joint3",
+    "B_fr3_joint4",
+    "B_fr3_joint5",
+    "B_fr3_joint6",
+    "B_fr3_joint7",
+    "right_finger1_joint1",
+    "right_finger1_joint2",
+    "right_finger1_joint3",
+    "right_finger1_joint4",
+    "right_finger2_joint1",
+    "right_finger2_joint2",
+    "right_finger2_joint3",
+    "right_finger2_joint4",
+    "right_finger3_joint1",
+    "right_finger3_joint2",
+    "right_finger3_joint3",
+    "right_finger3_joint4",
+    "right_finger4_joint1",
+    "right_finger4_joint2",
+    "right_finger4_joint3",
+    "right_finger4_joint4",
+    "right_finger5_joint1",
+    "right_finger5_joint2",
+    "right_finger5_joint3",
+    "right_finger5_joint4"
+  ],
+  "initial": {
+    "B_fr3_joint1": 0.0,
+    "B_fr3_joint2": 0.0,
+    "B_fr3_joint3": 0.0,
+    "B_fr3_joint4": -1.5708,
+    "B_fr3_joint5": 0.0,
+    "B_fr3_joint6": 1.5708,
+    "B_fr3_joint7": 0.7854,
+    "right_finger1_joint1": 0.0,
+    "right_finger1_joint2": 0.0,
+    "right_finger1_joint3": 0.0,
+    "right_finger1_joint4": 0.0,
+    "right_finger2_joint1": 0.0,
+    "right_finger2_joint2": 0.0,
+    "right_finger2_joint3": 0.0,
+    "right_finger2_joint4": 0.0,
+    "right_finger3_joint1": 0.0,
+    "right_finger3_joint2": 0.0,
+    "right_finger3_joint3": 0.0,
+    "right_finger3_joint4": 0.0,
+    "right_finger4_joint1": 0.0,
+    "right_finger4_joint2": 0.0,
+    "right_finger4_joint3": 0.0,
+    "right_finger4_joint4": 0.0,
+    "right_finger5_joint1": 0.0,
+    "right_finger5_joint2": 0.0,
+    "right_finger5_joint3": 0.0,
+    "right_finger5_joint4": 0.0
+  },
+  "connectors": {
+    "right": {
+      "source": "data/franka_wuji/cad/WUJI_Hand\u56fa\u5b9a\u4ef6.STL",
+      "source_sha256": "9ece831387ac39396f8e1e1e848b16bcdf433029a74f7f4f47542ebcff2fedbe",
+      "dimensions_m": [
+        0.06387364760041236,
+        0.07,
+        0.106
+      ],
+      "mass_kg": 0.1185652566906083,
+      "calibration_status": "geometry_fitted_not_measured",
+      "collision": "MuJoCo convex hull; holes and concavity not resolved",
+      "settings": {
+        "source": "data/franka_wuji/cad/WUJI_Hand\u56fa\u5b9a\u4ef6.STL",
+        "scale_to_m": 0.001,
+        "density_kg_m3": 1300,
+        "mesh_origin_xyz": [
+          -0.032,
+          -0.035,
+          0
+        ],
+        "flange_xyz": [
+          0,
+          0,
+          0
+        ],
+        "flange_rpy": [
+          0,
+          0,
+          -0.7853981633974483
+        ],
+        "docking_xyz": [
+          0.032,
+          -0.00023385,
+          0.042927715
+        ],
+        "docking_rpy": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0
+        ],
+        "palm_xyz": [
+          0,
+          0,
+          0.013
+        ],
+        "palm_rpy": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "cameras": {
+    "d405_b": {
+      "model": "Intel RealSense D405",
+      "reference_serial": "260322272638",
+      "parent": "right_connector_link",
+      "position": [
+        0.0290688,
+        0,
+        0.096478
+      ],
+      "look_at": [
+        0.128521,
+        0,
+        0.0860252
+      ],
+      "up": [
+        0,
+        0,
+        -1
+      ],
+      "width": 640,
+      "height": 480,
+      "nominal_fov_deg": [
+        87,
+        58
+      ],
+      "intrinsics": {
+        "source": "device_factory_sdk",
+        "snapshot": "data/franka_wuji/calibration/realsense_factory_20260905.json",
+        "serial": "260322272638",
+        "width": 640,
+        "height": 480,
+        "fx": 435.90570068359375,
+        "fy": 434.9215087890625,
+        "cx": 323.0315856933594,
+        "cy": 244.67527770996094,
+        "distortion_model": "inverse_brown_conrady",
+        "distortion_coeffs": [
+          -0.05373125523328781,
+          0.05656253919005394,
+          0.0001637360401218757,
+          0.0005015056813135743,
+          -0.01837330125272274
+        ]
+      },
+      "housing_shape": "box",
+      "housing_size_m": [
+        0.042,
+        0.042,
+        0.023
+      ],
+      "mass_kg": 0.06,
+      "lens_discs": [
+        [
+          -0.009,
+          0,
+          0.0055
+        ],
+        [
+          0.009,
+          0,
+          0.0055
+        ]
+      ],
+      "specification_source": "https://www.realsenseai.com/products/stereo-depth-camera-d405/",
+      "fovy": 57.78191139706881,
+      "K": [
+        [
+          435.90570068359375,
+          0,
+          323.0315856933594
+        ],
+        [
+          0,
+          434.9215087890625,
+          244.67527770996094
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "initial_T_world_optical": [
+        [
+          -2.993309128368482e-06,
+          0.10452850175123513,
+          0.9945218913189792,
+          0.5845636249280188
+        ],
+        [
+          -0.9999999999955187,
+          -3.1288611862523297e-07,
+          -2.9769114556765786e-06,
+          -0.34000008998881587
+        ],
+        [
+          1.1102230246251565e-16,
+          -0.9945218913234346,
+          0.10452850175170333,
+          0.5281251179904358
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "optical_axes": "+X right, +Y down, +Z forward",
+      "calibration_status": "factory_intrinsics_estimated_mount",
+      "image_mode": "rectified_pinhole_rgb",
+      "rendered_distortion_coeffs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "limitations": "Factory distortion is retained as reference, NOT applied to RGB. Compare with real RGB undistorted to the same K; no noise/stereo/LiDAR simulation."
+    },
+    "l515_overview": {
+      "model": "Intel RealSense L515",
+      "reference_serial": "f1420826",
+      "parent": "world",
+      "position": [
+        -0.4,
+        0,
+        0.82449859
+      ],
+      "look_at": [
+        0.55,
+        -0.06,
+        0.43
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "width": 960,
+      "height": 540,
+      "nominal_fov_deg": [
+        69,
+        42
+      ],
+      "intrinsics": {
+        "source": "device_factory_sdk",
+        "snapshot": "data/franka_wuji/calibration/realsense_factory_20260905.json",
+        "serial": "f1420826",
+        "width": 960,
+        "height": 540,
+        "fx": 677.171875,
+        "fy": 677.8053588867188,
+        "cx": 477.71600341796875,
+        "cy": 265.46014404296875,
+        "distortion_model": "brown_conrady",
+        "distortion_coeffs": [
+          0.16003575921058655,
+          -0.4738261103630066,
+          -0.0010922172805294394,
+          -0.0007373014814220369,
+          0.42285406589508057
+        ]
+      },
+      "housing_shape": "cylinder",
+      "housing_size_m": [
+        0.061,
+        0.061,
+        0.026
+      ],
+      "mass_kg": 0.095,
+      "lens_discs": [
+        [
+          0,
+          0,
+          0.019
+        ],
+        [
+          0.021,
+          0,
+          0.004
+        ]
+      ],
+      "specification_source": "https://dev.realsenseai.com/download/7691/",
+      "fovy": 43.439176668391525,
+      "K": [
+        [
+          677.171875,
+          0,
+          477.71600341796875
+        ],
+        [
+          0,
+          677.8053588867188,
+          265.46014404296875
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "initial_T_world_optical": [
+        [
+          -0.06303253003711057,
+          -0.3820975855668967,
+          0.9219698125541145,
+          -0.3990780301874459
+        ],
+        [
+          -0.9980114729586629,
+          0.024132533636502085,
+          -0.058229894926605796,
+          -5.82298949266058e-05
+        ],
+        [
+          3.474596849128986e-08,
+          -0.9238068282515731,
+          -0.3828589088368817,
+          0.824116141091163
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "optical_axes": "+X right, +Y down, +Z forward",
+      "calibration_status": "factory_intrinsics_estimated_mount",
+      "image_mode": "rectified_pinhole_rgb",
+      "rendered_distortion_coeffs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "limitations": "Factory distortion is retained as reference, NOT applied to RGB. Compare with real RGB undistorted to the same K; no noise/stereo/LiDAR simulation."
+    }
+  },
+  "work_table": {
+    "size_m": [
+      0.6,
+      0.5,
+      0.03
+    ],
+    "position_xy": [
+      0.55,
+      0
+    ],
+    "yaw_rad": 0,
+    "floor_z": -0.75,
+    "lift_height_m": 0.3,
+    "main_table": {
+      "size_m": [
+        1.6,
+        1.7,
+        0.07
+      ],
+      "top_xyz": [
+        0.4,
+        0,
+        0
+      ]
+    },
+    "leg_width_m": 0.035,
+    "friction": [
+      0.8,
+      0.005,
+      0.0001
+    ],
+    "top_z_world": 0.3,
+    "support_z_world": 0.0,
+    "object_position_frame": "table_top",
+    "geometry_status": "placeholder_dimensions_not_measured",
+    "adjustment": "lift_height_m measured above main table top; locked during a run"
+  },
+  "peg_board": {
+    "source": "data/franka_wuji/cad/peg_board.STL",
+    "source_sha256": "a2b191f7f0f659a8564823d0dc01bc4358de52f8e05d3f3a4d973d7f6b76b92d",
+    "dimensions_m": [
+      0.20383227539062498,
+      0.18981269454956054,
+      0.049999999999999996
+    ],
+    "bottom_center_world": [
+      0.55,
+      0.0,
+      0.3
+    ],
+    "fixed": true,
+    "collision": "Convex prism partition of STL top triangles; through holes preserved",
+    "collision_parts": 584,
+    "hex_hole_center_local_xy": [
+      -0.07304913330078122,
+      -0.06786391639709471
+    ],
+    "peg_polygon_local_xy": [
+      [
+        -0.014591162109374986,
+        -0.006441043853759765
+      ],
+      [
+        -0.014552764892578188,
+        -0.0069529861450195185
+      ],
+      [
+        -0.014438507080078183,
+        -0.007453509521484367
+      ],
+      [
+        -0.014250970458984408,
+        -0.007931401062011706
+      ],
+      [
+        -0.013994274902343742,
+        -0.00837600402832031
+      ],
+      [
+        -0.013674188232421905,
+        -0.008777389526367183
+      ],
+      [
+        -0.01329785156249999,
+        -0.009126583099365232
+      ],
+      [
+        -0.012873669433593762,
+        -0.009415784454345696
+      ],
+      [
+        -0.0017174377441406957,
+        -0.01585682144165039
+      ],
+      [
+        -0.0012549133300781834,
+        -0.01607957611083985
+      ],
+      [
+        -0.0007643737792969174,
+        -0.016230899047851563
+      ],
+      [
+        -0.0002566406250000264,
+        -0.016307411956787116
+      ],
+      [
+        0.0002566955566405682,
+        -0.016307411956787116
+      ],
+      [
+        0.0007643737792968203,
+        -0.016230899047851563
+      ],
+      [
+        0.0012549133300780863,
+        -0.01607957611083985
+      ],
+      [
+        0.0017174926757812237,
+        -0.01585682144165039
+      ],
+      [
+        0.012873669433593762,
+        -0.009415784454345696
+      ],
+      [
+        0.01329790649414063,
+        -0.009126583099365232
+      ],
+      [
+        0.013674188232421801,
+        -0.008777389526367183
+      ],
+      [
+        0.013994274902343742,
+        -0.00837600402832031
+      ],
+      [
+        0.014250970458984304,
+        -0.007931401062011706
+      ],
+      [
+        0.014438562011718725,
+        -0.007453509521484367
+      ],
+      [
+        0.014552764892578084,
+        -0.0069529861450195185
+      ],
+      [
+        0.014591162109374986,
+        -0.006441043853759765
+      ],
+      [
+        0.014591162109374986,
+        0.006441036987304687
+      ],
+      [
+        0.014552764892578084,
+        0.0069529930114746175
+      ],
+      [
+        0.014438562011718725,
+        0.007453502655029302
+      ],
+      [
+        0.014250970458984304,
+        0.007931401062011727
+      ],
+      [
+        0.013994274902343742,
+        0.008376010894775396
+      ],
+      [
+        0.013674188232421801,
+        0.008777389526367196
+      ],
+      [
+        0.01329790649414063,
+        0.009126583099365239
+      ],
+      [
+        0.012873669433593762,
+        0.00941578445434571
+      ],
+      [
+        0.0017174926757812237,
+        0.015856828308105475
+      ],
+      [
+        0.0012549133300780863,
+        0.016079576110839842
+      ],
+      [
+        0.0007643737792968203,
+        0.016230899047851563
+      ],
+      [
+        0.0002566955566405682,
+        0.016307411956787116
+      ],
+      [
+        -0.0002566406250000264,
+        0.016307411956787116
+      ],
+      [
+        -0.0007643737792969174,
+        0.016230899047851563
+      ],
+      [
+        -0.0012549133300781834,
+        0.016079576110839842
+      ],
+      [
+        -0.0017174377441406957,
+        0.015856828308105475
+      ],
+      [
+        -0.012873669433593762,
+        0.00941578445434571
+      ],
+      [
+        -0.01329785156249999,
+        0.009126583099365239
+      ],
+      [
+        -0.013674188232421905,
+        0.008777389526367196
+      ],
+      [
+        -0.013994274902343742,
+        0.008376010894775396
+      ],
+      [
+        -0.014250970458984408,
+        0.007931401062011727
+      ],
+      [
+        -0.014438507080078183,
+        0.007453502655029302
+      ],
+      [
+        -0.014552764892578188,
+        0.0069529930114746175
+      ],
+      [
+        -0.014591162109374986,
+        0.006441036987304687
+      ]
+    ],
+    "clearance_per_side_m": 0.001621237350813965,
+    "radial_scale": 0.9,
+    "corner_profile": "Scaled original STL rounded hex boundary",
+    "peg_height_m": 0.09,
+    "peg_mass_kg": 0.06,
+    "geometry_units": "STL assumed mm"
+  },
+  "model_config": {
+    "calibration_status": "geometry_fitted_connector_unverified_units_and_mating",
+    "base_xyz": {
+      "A": [
+        0,
+        0.34,
+        0
+      ],
+      "B": [
+        0,
+        -0.34,
+        0
+      ]
+    },
+    "base_rpy": {
+      "A": [
+        0,
+        0,
+        0
+      ],
+      "B": [
+        0,
+        0,
+        0
+      ]
+    },
+    "flange_to_docking_xyz": [
+      0,
+      0,
+      0
+    ],
+    "flange_to_docking_rpy": [
+      0,
+      0,
+      0
+    ],
+    "docking_to_palm_xyz": [
+      0,
+      0,
+      0.025
+    ],
+    "docking_to_palm_rpy": {
+      "left": [
+        0,
+        -1.5707963267948966,
+        -0.7853981633974483
+      ],
+      "right": [
+        0,
+        -1.5707963267948966,
+        2.356194490192345
+      ]
+    },
+    "timestep": 0.002,
+    "object_xyz": [
+      0,
+      -0.17,
+      0.001
+    ],
+    "work_table": {
+      "size_m": [
+        0.6,
+        0.5,
+        0.03
+      ],
+      "position_xy": [
+        0.55,
+        0
+      ],
+      "yaw_rad": 0,
+      "floor_z": -0.75,
+      "lift_height_m": 0.3,
+      "main_table": {
+        "size_m": [
+          1.6,
+          1.7,
+          0.07
+        ],
+        "top_xyz": [
+          0.4,
+          0,
+          0
+        ]
+      },
+      "leg_width_m": 0.035,
+      "friction": [
+        0.8,
+        0.005,
+        0.0001
+      ]
+    },
+    "peg_board": {
+      "source": "data/franka_wuji/cad/peg_board.STL",
+      "scale_to_m": 0.001,
+      "position_xy": [
+        0.55,
+        0
+      ],
+      "insertion": {
+        "hex_hole_center_local_xy": [
+          -0.0731,
+          -0.0679
+        ],
+        "radial_scale": 0.9,
+        "peg_height_m": 0.09,
+        "peg_mass_kg": 0.06
+      }
+    },
+    "connectors": {
+      "right": {
+        "source": "data/franka_wuji/cad/WUJI_Hand\u56fa\u5b9a\u4ef6.STL",
+        "scale_to_m": 0.001,
+        "density_kg_m3": 1300,
+        "mesh_origin_xyz": [
+          -0.032,
+          -0.035,
+          0
+        ],
+        "flange_xyz": [
+          0,
+          0,
+          0
+        ],
+        "flange_rpy": [
+          0,
+          0,
+          -0.7853981633974483
+        ],
+        "docking_xyz": [
+          0.032,
+          -0.00023385,
+          0.042927715
+        ],
+        "docking_rpy": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0
+        ],
+        "palm_xyz": [
+          0,
+          0,
+          0.013
+        ],
+        "palm_rpy": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "enclosure": {
+      "inner_min": [
+        -0.5,
+        -0.9,
+        0
+      ],
+      "inner_max": [
+        1.3,
+        0.9,
+        1.45
+      ],
+      "thickness_m": 0.02,
+      "rgba": [
+        0.025,
+        0.025,
+        0.028,
+        1
+      ]
+    },
+    "lighting": {
+      "key_position": [
+        0.55,
+        0,
+        1.3
+      ],
+      "fill_position": [
+        -0.3,
+        0.45,
+        1.15
+      ],
+      "key_diffuse": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "ambient": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "fill_diffuse": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "cameras": {
+      "l515_overview": {
+        "model": "Intel RealSense L515",
+        "reference_serial": "f1420826",
+        "parent": "world",
+        "position": [
+          -0.4,
+          0,
+          0.82449859
+        ],
+        "look_at": [
+          0.55,
+          -0.06,
+          0.43
+        ],
+        "up": [
+          0,
+          0,
+          1
+        ],
+        "width": 960,
+        "height": 540,
+        "nominal_fov_deg": [
+          69,
+          42
+        ],
+        "intrinsics": {
+          "source": "device_factory_sdk",
+          "snapshot": "data/franka_wuji/calibration/realsense_factory_20260905.json",
+          "serial": "f1420826",
+          "width": 960,
+          "height": 540,
+          "fx": 677.171875,
+          "fy": 677.8053588867188,
+          "cx": 477.71600341796875,
+          "cy": 265.46014404296875,
+          "distortion_model": "brown_conrady",
+          "distortion_coeffs": [
+            0.16003575921058655,
+            -0.4738261103630066,
+            -0.0010922172805294394,
+            -0.0007373014814220369,
+            0.42285406589508057
+          ]
+        },
+        "housing_shape": "cylinder",
+        "housing_size_m": [
+          0.061,
+          0.061,
+          0.026
+        ],
+        "mass_kg": 0.095,
+        "lens_discs": [
+          [
+            0,
+            0,
+            0.019
+          ],
+          [
+            0.021,
+            0,
+            0.004
+          ]
+        ],
+        "specification_source": "https://dev.realsenseai.com/download/7691/"
+      },
+      "d405_b": {
+        "model": "Intel RealSense D405",
+        "reference_serial": "260322272638",
+        "parent": "right_connector_link",
+        "position": [
+          0.0290688,
+          0,
+          0.096478
+        ],
+        "look_at": [
+          0.128521,
+          0,
+          0.0860252
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "width": 640,
+        "height": 480,
+        "nominal_fov_deg": [
+          87,
+          58
+        ],
+        "intrinsics": {
+          "source": "device_factory_sdk",
+          "snapshot": "data/franka_wuji/calibration/realsense_factory_20260905.json",
+          "serial": "260322272638",
+          "width": 640,
+          "height": 480,
+          "fx": 435.90570068359375,
+          "fy": 434.9215087890625,
+          "cx": 323.0315856933594,
+          "cy": 244.67527770996094,
+          "distortion_model": "inverse_brown_conrady",
+          "distortion_coeffs": [
+            -0.05373125523328781,
+            0.05656253919005394,
+            0.0001637360401218757,
+            0.0005015056813135743,
+            -0.01837330125272274
+          ]
+        },
+        "housing_shape": "box",
+        "housing_size_m": [
+          0.042,
+          0.042,
+          0.023
+        ],
+        "mass_kg": 0.06,
+        "lens_discs": [
+          [
+            -0.009,
+            0,
+            0.0055
+          ],
+          [
+            0.009,
+            0,
+            0.0055
+          ]
+        ],
+        "specification_source": "https://www.realsenseai.com/products/stereo-depth-camera-d405/"
+      }
+    }
+  },
+  "source_sha256": {
+    "third_party/franka_wrapper/ros2/src/franka_hardware/test/fr3.urdf": "6b33ea5d8605d5a7c38313ccf121d03756521c8052299423010074bbdf97537a",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link0.dae": "3c52a112d1610d645934945b80ea8d9bb3d1635f345098480a33a537bd43224e",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link0.stl": "56990396d712b2ebb89f7d29083973c823babd3bfa605f2d2863bd1069d29788",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link1.dae": "5c5846eabc714aefc82ef051a4d09c4fc1c092bca6258b1290227345dd217fcb",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link1.stl": "e023cf1db282e07f38597d4e7f9edae03cd0dc338974677b31639f677411dc18",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link2.dae": "90a1bd38abdc53d0141719cd8e040f788db337b768a845bb6d53c5c52590498f",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link2.stl": "3117fd3aea238c07fc1bf678784d38497bfdd603a7760bf36b7fb31b15f0624e",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link3.dae": "1c7a2a8124e39ad07096c0cce8461b0e650f6752900cfd777bf87c181e81749b",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link3.stl": "1f21215bdb62892271a263969c92dc1be15c409ec8fc96b6bdec3c28d77f0e6e",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link4.dae": "dd134cf13cdaced2b67739e4d9fe2ca011cc533936397d9f6303fc740424e2a2",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link4.stl": "b9574ef02cdf234dff9f12359e00f6c11a4b062cf73d1db20894c57f5a9d716a",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link5.dae": "cbcabd369e044eba3f1c2cab84b9ed2ebc1b2f424c6104ad9c5d7410e92fabfe",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link5.stl": "c174872b06547dc6acdd027679e476d4cddffe0224cb048763bdbf4f68fe7542",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link6.dae": "907b16fea84931f4881174234065bb647700abf105b432c3ff65360e0ad5cf8b",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link6.stl": "9ad5c4698aed204cd505e74356adfbb955196913d0b75a616c3865b319d39e6b",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/visual/link7.dae": "b9d05ac502ff269b1323705de811d07a8eb9920ce711b32ee0497bf16b74989b",
+    "third_party/franka_wrapper/ros2/src/franka_description/meshes/robots/fr3/collision/link7.stl": "c48646a72ed0264e5f90b221327fd2b72163935ec7bc1cde9612ac1dcf23eabf",
+    "third_party/wuji_wrapper/third_party/wuji-hand-description/docking/urdf/docking.urdf": "b4e0bb7c0dc1b0523a44a1943d9f63516941ba98ad641577ddb17d8e7dbf08c5",
+    "third_party/wuji_wrapper/third_party/wuji-hand-description/docking/meshes/hand_docking_link.STL": "5e17d2b4a7b9c5bd7f920990b7c10b377ca7fa2038f3cdcdd2e541d50dd96872",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/urdf/right.urdf": "ff32d9b553af409e373b6079e8426eeb58d6e8b8ac78c7682d7401fd4b9778c2",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/palm_link.STL": "1ba4495e3b7adc707d50150a8625a0ed3731fa42ab6d40e62ae7437da103ce5e",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/palm_link_collision.STL": "542614615dc46aee7df9cad628374a3aea4c07f58e6f2c716d2b4cbebe665139",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link1.STL": "0e32302a46cd00d6cc1e7fb03cc483988c639271708c2300a9aecc9de537e42b",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link1_collision.STL": "2adeb7b286e96c57c354c0b4d2107aa7bbd63a58b47a2fce828f313722d8eae2",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link2.STL": "080015cce41de31954e53bbfca45f37f0439e2e689bca49e1910c70efc4f70b7",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link2_collision.STL": "930360774dcefe897cafcf6145d042217a78f1b54ca98dc7a1017db889f18afc",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link3.STL": "52eef283d29c617fe4457151685386324bddbccf1598b8a7fc675bb8f28dc85a",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link3_collision.STL": "f2042ec400e5840bf1b3c22aebb7c50ffa466e0f23474908c40ab546eefdbc6c",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link4.STL": "f0fb321c4abfd4ab7437caeb116f1935b94d1510fd921222eb49ba6c5a57f057",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_link4_collision.STL": "48eb6a1c4818d6be44c1264b069c06362a2edc0bb8ebacb70f195e1e3f4e9090",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_tip_link.STL": "25929e0c28a5c65afe88dbccaa697664a2385f8ead02126731a7e1b956ec1dea",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger1_tip_link_collision.STL": "1f76a0f6319bd664570fa2571e6a87db2b5b94a47045732daef486f2896dc220",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link1.STL": "36e0471a0373a7634fc10911b33f3b30a5fe829f6526e656a911406cebf19731",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link1_collision.STL": "55cf7973ab4d57119f6eb032704defddf7077a01022f99d6a9f95eaea7f28875",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link2.STL": "56bb1972b8cb1d63d48aa18283148ff6760e387dc64fe963b11209e07e243511",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link2_collision.STL": "db3b779d3cf98615617f5554946205e9f07de5cd9853005305048f617dc96fdc",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link3.STL": "48d70e865e2b49139028511808ae3ad25c5cf06e36fe959c6c71b5263dfcbbde",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link3_collision.STL": "24f3464762c5ab07b4c56d3df6576ee43cb63eab0938c6366f1153323c619aa5",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link4.STL": "3eede2c8e1eb1301bc23b4b453fb7014ca5965611b44b115a7330bf33e4d922e",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_link4_collision.STL": "a8708b0b03aab6a7fb5074a6c9639dee85be56415018ad16a9a04b6f43b6cc85",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_tip_link.STL": "496039ce3f4f3fbe6bac466a01567797f741af95c6f11dc61626ec2de175900b",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger2_tip_link_collision.STL": "53d0ef5c6346f3f5dd514646df784fa1b6b56c088164496ef661019566028c1d",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link1.STL": "558fac18be219c0e6bb6224b82c711b3efe762b547818ea074eda93dc38bad07",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link1_collision.STL": "698e2327acfe737e11fb10f2fb1d36bbf8f1bc6e688f1e31e6232bfc51127581",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link2.STL": "338db71e2c1ec63fba860d5d2af52bcb1daff72349b0e03a45f82ae63539bd43",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link2_collision.STL": "50e5f990401d1ede299adc2034c5c2c66f8b2499a8f7c38d9bbc4e26da06c3b9",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link3.STL": "3af337085d5f6430a471462c18b9132f1447eb8c0f3c68a8b1e69318ff8c3db8",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link3_collision.STL": "ddbd96f0b25ac9582a786bc6da7b363be61804e2b02fa5da4ca17c04f1715e5f",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link4.STL": "3b8efa21bafcae21119f243decf924dac51cc55181ed540e69ce6b85ecf03790",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_link4_collision.STL": "fafdff7b5e8b736bde927d6b62a7c953bd1f4bf8e77b442f5a7217ae0f2fa431",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_tip_link.STL": "7a99f65a6a473899913d4273e61319e3724fbf81ac8532969ed5c2ff1c1bde54",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger3_tip_link_collision.STL": "7e855b092faf2e2f0471109814ad9b2469485f88a47b6abd290b79b0f663ab2d",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link1.STL": "508321fefaeae1ae0567f89acd2492fac27cc468a2f562d895afcff192b0d00c",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link1_collision.STL": "cc3b2c4d5b6304520c4a0297978ffaed3005d99cd8bdf74cc631deb6f5d9f14b",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link2.STL": "e0b28769389c33af6af73c6dbf506be126570fa6ca7cbaf08f85a51005c48cde",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link2_collision.STL": "a68648fc10cccdc58b2db7a4d09079ba2a9fa102a04e3c6a955e13e25edb2c30",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link3.STL": "b01668bab452260954faf8cbff94fb59c55ccb3e490ff6eb4b73e81e550c787f",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link3_collision.STL": "8eb85ee78e3fd9e489a75e0385ea8493db0af0023286a005ac148cc26ff65b81",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link4.STL": "d673bf02761f722728eb1ee0e7cc79ee6afba7693c78f623c3a4a89d5a905453",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_link4_collision.STL": "86783162be22f7600503a0a62484314367cf0d1adc2757a68681667e8f03205d",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_tip_link.STL": "e8b1fbee8e019afe490e820b1cba5e02c5124bb4a09aa73896bd46db6586dfde",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger4_tip_link_collision.STL": "29ed263d5e5cb24fdede93f6a8c695c36aaf5392f7c52acd4b13dee050a98bb9",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link1.STL": "85ce22b8285a7d85e4c866151c972cde0736d4f618f35015b0b96fe39e367e49",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link1_collision.STL": "011e4890f925b9d3454261f4fa98f0fb1b95c3aaeec707aa3db48a305fc42243",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link2.STL": "9245362396a184e63af8d2707dc85a3250f1d7db4eeb079d5b3ee9b432939dd6",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link2_collision.STL": "bf966538aa20a9ea1ba6e58c8bf1bf09aef3ca6826f349757077d3de84ed0119",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link3.STL": "1083dcec6df545d60c3f14af1113613ca89cc8964692dd624baa750491915f40",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link3_collision.STL": "26b793372d5232de0b82dd2e74a041564f9bb22394705f2bae23366921cc56b0",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link4.STL": "6342d4562a8bfaef740850c02dc5418ade11dcbe04736b957d93522995080f35",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_link4_collision.STL": "8643d9c3d6363aa7d6652e2137b4f496a1bd350dc39a0ddcc9cc8bfdc5f34093",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_tip_link.STL": "ebbf48ca7ba3bca5f329f95277ae392d0c1a09615eda23f1bf646c5112a38cee",
+    "third_party/wuji_wrapper/third_party/wuji-retargeting/wuji_retargeting/wuji_hand_description/meshes/right/finger5_tip_link_collision.STL": "4678873a3d1ca7c0a97f68cf87ebaa334484cf2d202da76b961e7c16a7a5968d",
+    "data/franka_wuji/cad/WUJI_Hand\u56fa\u5b9a\u4ef6.STL": "9ece831387ac39396f8e1e1e848b16bcdf433029a74f7f4f47542ebcff2fedbe"
+  },
+  "joint_map_sha256": "fc6407f7306083bc2d0babe8300202ca36bcb10b4170b24016186837cd6fd46d",
+  "hand_model": "Wuji Hand 1 v1.0.2 (same URDF as current retargeter)",
+  "limitations": [
+    "Base/mount transforms are estimates until measured.",
+    "Arm PD gains follow DexGello; hand actuator dynamics and friction remain estimates.",
+    "Gravity compensation is idealized; cameras are uncalibrated.",
+    "Connector STL units are assumed millimetres; density, docking insertion and mounting clocking need physical confirmation. Collision uses a convex hull, not the concave CAD surface."
+  ]
+}

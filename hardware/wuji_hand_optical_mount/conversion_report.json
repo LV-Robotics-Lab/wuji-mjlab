@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/wuji-technology/wuji-description/tree/main/hand/attachment/wuji-hand-rl-open-source-base",
+  "units": "mm",
+  "vertices": 1940,
+  "triangles": 3920,
+  "dimensions_mm": [
+    90.0,
+    134.240387,
+    93.00000000000003
+  ],
+  "edges_not_shared_by_two_faces": 0,
+  "stl_bytes": 196084,
+  "expected_stl_bytes": 196084,
+  "note": "Official cradle, not a verified palm-down mount. Retains 3MF build orientation, translated to zero minimum bounds."
+}

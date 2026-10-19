@@ -1,0 +1,31 @@
+<mujoco>
+  
+
+  <compiler assetdir="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/src/wuji_mjlab/assets/objects/inhand_object" />
+
+  
+  <default>
+    <default class="cube">
+      <geom friction=".3" conaffinity="2" condim="3" priority="0" solref="0.015 1.0" solimp="0.85 0.85 0.001" />
+    </default>
+  </default>
+
+  <asset>
+    <texture name="cube" type="cube" fileup="textures/fileup.png" fileback="textures/fileback.png" filedown="textures/filedown.png" filefront="textures/filefront.png" fileleft="textures/fileleft.png" fileright="textures/fileright.png" />
+    <material name="cube" texture="cube" />
+    <texture name="graycube" type="cube" fileup="textures/grayup.png" fileback="textures/grayback.png" filedown="textures/graydown.png" filefront="textures/grayfront.png" fileleft="textures/grayleft.png" fileright="textures/grayright.png" />
+    <material name="graycube" texture="graycube" />
+    <texture name="dexcube" type="2d" file="textures/dex_cube.png" />
+    <material name="dexcube" texture="dexcube" />
+    <mesh name="cube_mesh" file="meshes/dex_cube.obj" scale="0.027 0.027 0.027" />
+  <mesh name="wrist_tag_mesh_TOP" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/TOP.obj" /><texture name="wrist_tag_tex_TOP" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/TOP.png" /><material name="wrist_tag_mat_TOP" texture="wrist_tag_tex_TOP" texuniform="false" texrepeat="1 1" /><mesh name="wrist_tag_mesh_BOTTOM" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BOTTOM.obj" /><texture name="wrist_tag_tex_BOTTOM" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BOTTOM.png" /><material name="wrist_tag_mat_BOTTOM" texture="wrist_tag_tex_BOTTOM" texuniform="false" texrepeat="1 1" /><mesh name="wrist_tag_mesh_FRONT" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/FRONT.obj" /><texture name="wrist_tag_tex_FRONT" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/FRONT.png" /><material name="wrist_tag_mat_FRONT" texture="wrist_tag_tex_FRONT" texuniform="false" texrepeat="1 1" /><mesh name="wrist_tag_mesh_BACK" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BACK.obj" /><texture name="wrist_tag_tex_BACK" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/BACK.png" /><material name="wrist_tag_mat_BACK" texture="wrist_tag_tex_BACK" texuniform="false" texrepeat="1 1" /><mesh name="wrist_tag_mesh_LEFT" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/LEFT.obj" /><texture name="wrist_tag_tex_LEFT" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/LEFT.png" /><material name="wrist_tag_mat_LEFT" texture="wrist_tag_tex_LEFT" texuniform="false" texrepeat="1 1" /><mesh name="wrist_tag_mesh_RIGHT" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/RIGHT.obj" /><texture name="wrist_tag_tex_RIGHT" type="2d" file="/home/gmlab/workspace/wuji_RL/releases/palm_down_rgb640_20261003/hardware/franka_wuji_sim_assembly_20260930/final_rgb640_demo/RIGHT.png" /><material name="wrist_tag_mat_RIGHT" texture="wrist_tag_tex_RIGHT" texuniform="false" texrepeat="1 1" /></asset>
+
+  <worldbody>
+    
+    <body name="cube" pos="-0.1404 0.0042 0.52" quat="0.3894 -0.3796 -0.5980 -0.5888" childclass="cube">
+      <freejoint name="cube_freejoint" />
+      <geom name="cube" type="box" size="0.0225 0.0225 0.0225" mass="0.028192" group="3" />
+      <site name="cube_center" pos="0 0 0" group="4" />
+    <geom type="mesh" mesh="wrist_tag_mesh_TOP" material="wrist_tag_mat_TOP" group="2" contype="0" conaffinity="0" density="0" /><geom type="mesh" mesh="wrist_tag_mesh_BOTTOM" material="wrist_tag_mat_BOTTOM" group="2" contype="0" conaffinity="0" density="0" /><geom type="mesh" mesh="wrist_tag_mesh_FRONT" material="wrist_tag_mat_FRONT" group="2" contype="0" conaffinity="0" density="0" /><geom type="mesh" mesh="wrist_tag_mesh_BACK" material="wrist_tag_mat_BACK" group="2" contype="0" conaffinity="0" density="0" /><geom type="mesh" mesh="wrist_tag_mesh_LEFT" material="wrist_tag_mat_LEFT" group="2" contype="0" conaffinity="0" density="0" /><geom type="mesh" mesh="wrist_tag_mesh_RIGHT" material="wrist_tag_mat_RIGHT" group="2" contype="0" conaffinity="0" density="0" /></body>
+  </worldbody>
+</mujoco>

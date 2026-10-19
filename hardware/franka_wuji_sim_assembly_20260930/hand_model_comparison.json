@@ -1,0 +1,486 @@
+{
+  "source": "User Franka assembly",
+  "training_hand": "Canonical right_mjlab.xml",
+  "bodies": [
+    {
+      "name": "right_palm_link",
+      "source_mass_kg": 0.2179,
+      "training_mass_kg": 0.16914,
+      "local_pos_difference_mm": 13.0,
+      "visual_surface_mean_distance_mm": 4.231421508744197,
+      "visual_surface_max_distance_mm": 21.76183622397581,
+      "source_visual_extent_mm": [
+        31.87048328096783,
+        81.09561805809918,
+        104.83219244008598
+      ],
+      "training_visual_extent_mm": [
+        48.84008974822855,
+        88.05121218185896,
+        104.8166069443612
+      ]
+    },
+    {
+      "name": "right_finger1_link1",
+      "source_mass_kg": 0.0075,
+      "training_mass_kg": 0.0075,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 0.13405101834961006,
+      "visual_surface_max_distance_mm": 2.328742019075256,
+      "source_visual_extent_mm": [
+        18.24591120591699,
+        17.335998885052458,
+        24.94354486944903
+      ],
+      "training_visual_extent_mm": [
+        18.258183858243022,
+        17.35728473817461,
+        24.94335994701216
+      ]
+    },
+    {
+      "name": "right_finger1_link2",
+      "source_mass_kg": 0.0248,
+      "training_mass_kg": 0.0333532,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 3.6001114592680072,
+      "visual_surface_max_distance_mm": 15.627866249452788,
+      "source_visual_extent_mm": [
+        15.07711578651599,
+        14.996967553370846,
+        44.02488202570237
+      ],
+      "training_visual_extent_mm": [
+        39.16331835567878,
+        35.878535061197574,
+        44.01625555837168
+      ]
+    },
+    {
+      "name": "right_finger1_link3",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0165,
+      "local_pos_difference_mm": 2.1262996065700617,
+      "visual_surface_mean_distance_mm": 1.4486133101511578,
+      "visual_surface_max_distance_mm": 9.392654193298226,
+      "source_visual_extent_mm": [
+        15.000000657414263,
+        15.000000760436793,
+        38.428695211961184
+      ],
+      "training_visual_extent_mm": [
+        20.989058877280687,
+        21.823705527365533,
+        38.48057245401591
+      ]
+    },
+    {
+      "name": "right_finger1_link4",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0206,
+      "local_pos_difference_mm": 0.25,
+      "visual_surface_mean_distance_mm": 3.215639054109057,
+      "visual_surface_max_distance_mm": 16.83824114086887,
+      "source_visual_extent_mm": [
+        15.00000022341248,
+        15.00000007887842,
+        22.507735079773912
+      ],
+      "training_visual_extent_mm": [
+        20.99482009297327,
+        22.227000815219537,
+        40.71589745604157
+      ]
+    },
+    {
+      "name": "right_finger2_link1",
+      "source_mass_kg": 0.0032,
+      "training_mass_kg": 0.0032,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 0.05540254152035439,
+      "visual_surface_max_distance_mm": 0.48457679655576674,
+      "source_visual_extent_mm": [
+        12.686522839541764,
+        13.999999966472387,
+        13.427564926198514
+      ],
+      "training_visual_extent_mm": [
+        12.666173296271465,
+        14.000002760440111,
+        13.42048456758449
+      ]
+    },
+    {
+      "name": "right_finger2_link2",
+      "source_mass_kg": 0.033,
+      "training_mass_kg": 0.033,
+      "local_pos_difference_mm": 9.999999999940612e-06,
+      "visual_surface_mean_distance_mm": 4.571912923695166,
+      "visual_surface_max_distance_mm": 14.311417804364162,
+      "source_visual_extent_mm": [
+        15.000242202674377,
+        15.000000130385182,
+        54.11138183330951
+      ],
+      "training_visual_extent_mm": [
+        20.35445538726141,
+        24.277585738828765,
+        54.435634782772276
+      ]
+    },
+    {
+      "name": "right_finger2_link3",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0165,
+      "local_pos_difference_mm": 6.717924549918672,
+      "visual_surface_mean_distance_mm": 1.4077457752114513,
+      "visual_surface_max_distance_mm": 8.705837730213593,
+      "source_visual_extent_mm": [
+        15.000001030286656,
+        14.999700804431273,
+        38.421312366354044
+      ],
+      "training_visual_extent_mm": [
+        20.23018757607517,
+        18.696198499780657,
+        42.2198398188552
+      ]
+    },
+    {
+      "name": "right_finger2_link4",
+      "source_mass_kg": 0.014,
+      "training_mass_kg": 0.01718,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 3.352673021935763,
+      "visual_surface_max_distance_mm": 15.01833709076608,
+      "source_visual_extent_mm": [
+        15.000000595013248,
+        14.99929884413692,
+        14.449816259985797
+      ],
+      "training_visual_extent_mm": [
+        19.273126076405752,
+        17.11727698087794,
+        32.92058523682584
+      ]
+    },
+    {
+      "name": "right_finger3_link1",
+      "source_mass_kg": 0.0032,
+      "training_mass_kg": 0.0032,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 0.022116497813141286,
+      "visual_surface_max_distance_mm": 0.4845760952321231,
+      "source_visual_extent_mm": [
+        12.686523179609937,
+        13.999999966472387,
+        13.427566076804643
+      ],
+      "training_visual_extent_mm": [
+        12.666173105264791,
+        13.999999966472387,
+        13.420489061099563
+      ]
+    },
+    {
+      "name": "right_finger3_link2",
+      "source_mass_kg": 0.033,
+      "training_mass_kg": 0.033,
+      "local_pos_difference_mm": 9.999999999940612e-06,
+      "visual_surface_mean_distance_mm": 4.572246284468228,
+      "visual_surface_max_distance_mm": 14.262355695848242,
+      "source_visual_extent_mm": [
+        15.000000264402187,
+        15.000000130385182,
+        54.11133872079026
+      ],
+      "training_visual_extent_mm": [
+        20.354450996546525,
+        24.2778688479643,
+        54.43566595680925
+      ]
+    },
+    {
+      "name": "right_finger3_link3",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0165,
+      "local_pos_difference_mm": 6.717514427971108,
+      "visual_surface_mean_distance_mm": 1.3885749850347522,
+      "visual_surface_max_distance_mm": 8.706076070731369,
+      "source_visual_extent_mm": [
+        15.00000100943134,
+        14.999700804431436,
+        38.42131236218966
+      ],
+      "training_visual_extent_mm": [
+        20.23282677118955,
+        18.696198110208847,
+        42.21991400909704
+      ]
+    },
+    {
+      "name": "right_finger3_link4",
+      "source_mass_kg": 0.014,
+      "training_mass_kg": 0.01718,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 3.3626204244023072,
+      "visual_surface_max_distance_mm": 15.018326751801633,
+      "source_visual_extent_mm": [
+        15.000000657238274,
+        14.999298765917505,
+        14.449818118033704
+      ],
+      "training_visual_extent_mm": [
+        19.272956524188405,
+        17.117127458942104,
+        32.9207058065895
+      ]
+    },
+    {
+      "name": "right_finger4_link1",
+      "source_mass_kg": 0.0032,
+      "training_mass_kg": 0.0032,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 0.04230937267318882,
+      "visual_surface_max_distance_mm": 0.4845765156744469,
+      "source_visual_extent_mm": [
+        12.68652243992948,
+        13.999999966472387,
+        13.427565165428646
+      ],
+      "training_visual_extent_mm": [
+        12.66617327014912,
+        14.000000897794962,
+        13.420489272068638
+      ]
+    },
+    {
+      "name": "right_finger4_link2",
+      "source_mass_kg": 0.033,
+      "training_mass_kg": 0.033,
+      "local_pos_difference_mm": 9.999999999940612e-06,
+      "visual_surface_mean_distance_mm": 4.563986935866664,
+      "visual_surface_max_distance_mm": 14.35461638601069,
+      "source_visual_extent_mm": [
+        14.99999960926298,
+        15.000000130385184,
+        54.11133834628272
+      ],
+      "training_visual_extent_mm": [
+        20.35445170943268,
+        24.277905883587202,
+        54.366828347070296
+      ]
+    },
+    {
+      "name": "right_finger4_link3",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0165,
+      "local_pos_difference_mm": 6.698887419892948,
+      "visual_surface_mean_distance_mm": 1.3911802244222478,
+      "visual_surface_max_distance_mm": 8.68892244039472,
+      "source_visual_extent_mm": [
+        15.00000072095966,
+        14.999700804431694,
+        38.42131235830213
+      ],
+      "training_visual_extent_mm": [
+        20.229119143522368,
+        18.696199054711467,
+        42.156041879299465
+      ]
+    },
+    {
+      "name": "right_finger4_link4",
+      "source_mass_kg": 0.014,
+      "training_mass_kg": 0.01718,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 3.364502859595061,
+      "visual_surface_max_distance_mm": 15.01832985528225,
+      "source_visual_extent_mm": [
+        14.999999847170482,
+        14.999298093951966,
+        14.449818385941139
+      ],
+      "training_visual_extent_mm": [
+        19.26901922198898,
+        17.117551616258986,
+        32.85698172925661
+      ]
+    },
+    {
+      "name": "right_finger5_link1",
+      "source_mass_kg": 0.0032,
+      "training_mass_kg": 0.0032,
+      "local_pos_difference_mm": 0.0003201562118654064,
+      "visual_surface_mean_distance_mm": 0.06634805737403107,
+      "visual_surface_max_distance_mm": 0.5473757498121885,
+      "source_visual_extent_mm": [
+        12.686522424046675,
+        13.999999966472387,
+        13.427565144357832
+      ],
+      "training_visual_extent_mm": [
+        12.666173586902651,
+        14.000003226101397,
+        13.420487503593215
+      ]
+    },
+    {
+      "name": "right_finger5_link2",
+      "source_mass_kg": 0.033,
+      "training_mass_kg": 0.033,
+      "local_pos_difference_mm": 9.999999999940612e-06,
+      "visual_surface_mean_distance_mm": 4.354109664243806,
+      "visual_surface_max_distance_mm": 13.206886539989153,
+      "source_visual_extent_mm": [
+        14.999999686003518,
+        15.000000130385184,
+        54.111338584947326
+      ],
+      "training_visual_extent_mm": [
+        20.35445441721628,
+        24.27788742539845,
+        54.151152925902906
+      ]
+    },
+    {
+      "name": "right_finger5_link3",
+      "source_mass_kg": 0.0165,
+      "training_mass_kg": 0.0165,
+      "local_pos_difference_mm": 6.694221380414604,
+      "visual_surface_mean_distance_mm": 1.3552256802325284,
+      "visual_surface_max_distance_mm": 7.925475889373654,
+      "source_visual_extent_mm": [
+        15.000001009431335,
+        14.999700804431102,
+        38.42131236847067
+      ],
+      "training_visual_extent_mm": [
+        20.22885251109915,
+        18.696199136505935,
+        40.157827692921124
+      ]
+    },
+    {
+      "name": "right_finger5_link4",
+      "source_mass_kg": 0.014,
+      "training_mass_kg": 0.01718,
+      "local_pos_difference_mm": 0.0,
+      "visual_surface_mean_distance_mm": 3.6639947582606105,
+      "visual_surface_max_distance_mm": 16.942664236654647,
+      "source_visual_extent_mm": [
+        14.99999941208285,
+        14.999298437327987,
+        14.449818318710786
+      ],
+      "training_visual_extent_mm": [
+        19.26802900627906,
+        17.11713596607962,
+        32.46032310537071
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "name": "right_finger1_joint1",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.0923
+    },
+    {
+      "name": "right_finger1_joint2",
+      "axis_max_difference": 2.0,
+      "limit_max_difference_rad": 0.027200000000000002
+    },
+    {
+      "name": "right_finger1_joint3",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.06489999999999996
+    },
+    {
+      "name": "right_finger1_joint4",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.07040000000000002
+    },
+    {
+      "name": "right_finger2_joint1",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.16845000000000002
+    },
+    {
+      "name": "right_finger2_joint2",
+      "axis_max_difference": 1.0,
+      "limit_max_difference_rad": 0.125
+    },
+    {
+      "name": "right_finger2_joint3",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.07869999999999999
+    },
+    {
+      "name": "right_finger2_joint4",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.05190000000000006
+    },
+    {
+      "name": "right_finger3_joint1",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.16255000000000003
+    },
+    {
+      "name": "right_finger3_joint2",
+      "axis_max_difference": 1.0,
+      "limit_max_difference_rad": 0.125
+    },
+    {
+      "name": "right_finger3_joint3",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.07600000000000007
+    },
+    {
+      "name": "right_finger3_joint4",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.05269999999999997
+    },
+    {
+      "name": "right_finger4_joint1",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.17155
+    },
+    {
+      "name": "right_finger4_joint2",
+      "axis_max_difference": 1.0,
+      "limit_max_difference_rad": 0.125
+    },
+    {
+      "name": "right_finger4_joint3",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.07850000000000001
+    },
+    {
+      "name": "right_finger4_joint4",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.06380000000000008
+    },
+    {
+      "name": "right_finger5_joint1",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.16435000000000002
+    },
+    {
+      "name": "right_finger5_joint2",
+      "axis_max_difference": 1.0,
+      "limit_max_difference_rad": 0.125
+    },
+    {
+      "name": "right_finger5_joint3",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.07820000000000005
+    },
+    {
+      "name": "right_finger5_joint4",
+      "axis_max_difference": 0.0,
+      "limit_max_difference_rad": 0.05370000000000008
+    }
+  ]
+}

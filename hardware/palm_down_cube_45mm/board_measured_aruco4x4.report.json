@@ -1,0 +1,261 @@
+{
+  "reference": "TOP",
+  "cube_edge_mm_anchor": 45.0,
+  "fitted_marker_edge_mm": 9.469,
+  "fitted_marker_offset_mm": 13.309,
+  "print_scale_vs_pdf": [
+    0.8741,
+    0.8873
+  ],
+  "faces": {
+    "TOP": {
+      "sits_on_model_face": "TOP",
+      "in_plane_rotation_deg": 0.0,
+      "M": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "evidence": "pairwise"
+    },
+    "BOTTOM": {
+      "sits_on_model_face": "BOTTOM",
+      "in_plane_rotation_deg": 90.0,
+      "M": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "evidence": "pairwise"
+    },
+    "FRONT": {
+      "sits_on_model_face": "FRONT",
+      "in_plane_rotation_deg": 0.0,
+      "M": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "evidence": "pairwise"
+    },
+    "BACK": {
+      "sits_on_model_face": "BACK",
+      "in_plane_rotation_deg": 180.0,
+      "M": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "evidence": "pairwise"
+    },
+    "LEFT": {
+      "sits_on_model_face": "RIGHT",
+      "in_plane_rotation_deg": NaN,
+      "M": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evidence": "pairwise"
+    },
+    "RIGHT": {
+      "sits_on_model_face": "LEFT",
+      "in_plane_rotation_deg": NaN,
+      "M": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0
+        ]
+      ],
+      "evidence": "pairwise"
+    }
+  },
+  "conflicts": [],
+  "multi_face_validation": [
+    {
+      "frame": "20261003_181224/frame02_raw.png",
+      "model_px": 47.03,
+      "measured_px": 0.53
+    },
+    {
+      "frame": "20261003_181224/frame05_raw.png",
+      "model_px": 11.73,
+      "measured_px": 0.74
+    },
+    {
+      "frame": "20261003_181224/frame06_raw.png",
+      "model_px": 29.61,
+      "measured_px": 0.75
+    },
+    {
+      "frame": "20261003_181224/frame07_raw.png",
+      "model_px": 32.86,
+      "measured_px": 0.71
+    },
+    {
+      "frame": "20261003_181224/frame09_raw.png",
+      "model_px": 23.59,
+      "measured_px": 1.16
+    },
+    {
+      "frame": "20261003_181224/frame10_raw.png",
+      "model_px": 45.85,
+      "measured_px": 0.97
+    },
+    {
+      "frame": "20261003_181224/frame11_raw.png",
+      "model_px": 3.07,
+      "measured_px": 0.86
+    },
+    {
+      "frame": "20261003_181224/frame12_raw.png",
+      "model_px": 37.48,
+      "measured_px": 0.71
+    },
+    {
+      "frame": "20261003_181224/frame19_raw.png",
+      "model_px": 36.36,
+      "measured_px": 0.94
+    },
+    {
+      "frame": "20261003_181224/frame20_raw.png",
+      "model_px": 22.47,
+      "measured_px": 0.92
+    },
+    {
+      "frame": "20261003_182130/frame03_raw.png",
+      "model_px": 94.25,
+      "measured_px": 0.56
+    },
+    {
+      "frame": "20261003_182130/frame05_raw.png",
+      "model_px": 24.98,
+      "measured_px": 0.81
+    },
+    {
+      "frame": "20261003_182130/frame10_raw.png",
+      "model_px": 15.46,
+      "measured_px": 1.19
+    },
+    {
+      "frame": "20261003_182130/frame13_raw.png",
+      "model_px": 1.96,
+      "measured_px": 0.64
+    },
+    {
+      "frame": "20261003_182130/frame15_raw.png",
+      "model_px": 92.75,
+      "measured_px": 1.19
+    },
+    {
+      "frame": "20261003_182130/frame19_raw.png",
+      "model_px": 62.27,
+      "measured_px": 1.05
+    },
+    {
+      "frame": "20261003_182130/frame22_raw.png",
+      "model_px": 56.5,
+      "measured_px": 0.92
+    },
+    {
+      "frame": "20261003_182130/frame23_raw.png",
+      "model_px": 68.89,
+      "measured_px": 1.0
+    },
+    {
+      "frame": "20261003_182130/frame28_raw.png",
+      "model_px": 35.39,
+      "measured_px": 0.91
+    },
+    {
+      "frame": "20261003_182130/frame29_raw.png",
+      "model_px": 4.3,
+      "measured_px": 1.02
+    },
+    {
+      "frame": "20261003_182130/frame30_raw.png",
+      "model_px": 73.98,
+      "measured_px": 0.53
+    }
+  ],
+  "captures": [
+    "logs/cube_tag_check/20261003_181224",
+    "logs/cube_tag_check/20261003_182130"
+  ],
+  "caliper_check": {
+    "cube_edge_mm": 45.0,
+    "marker_black_edge_mm": 9.5,
+    "note": "Stickers printed at ~0.875 of the PDF; fitted 9.469 mm agrees with caliper 9.5 mm"
+  }
+}

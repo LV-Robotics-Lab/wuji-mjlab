@@ -242,6 +242,7 @@ class FakeSim:
 
 
 def make_fake_event_env(num_envs: int = 4, device: str = "cpu") -> SimpleNamespace:
+  """Build a lightweight scaffold for reorient event-focused tests."""
   torch_device = torch.device(device)
   scene = FakeScene(num_envs=num_envs, device=torch_device)
   sim = FakeSim(num_envs=num_envs, scene=scene, device=torch_device)
@@ -263,6 +264,7 @@ def make_fake_event_env(num_envs: int = 4, device: str = "cpu") -> SimpleNamespa
 
 
 def make_command_manager(term) -> SimpleNamespace:
+  """Wrap an object so it behaves like a CommandManager exposing one term."""
   return SimpleNamespace(get_term=lambda _name: term)
 
 

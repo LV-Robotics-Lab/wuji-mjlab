@@ -1,0 +1,374 @@
+{
+  "reference_serial": "260322272638",
+  "mapping": "Provided source assembly right wrist d405_b reference_serial",
+  "hand_side_mount": true,
+  "pitch_deg": 6,
+  "backoff_mm": 0,
+  "seed": 7400,
+  "trials": 16,
+  "goals": 64,
+  "student": "camera_dagger_20260930_v2/student.pt",
+  "historical_assembly": {
+    "goal_successes": 57,
+    "goal_success_rate": 0.890625,
+    "survived_trials": 14,
+    "survival_rate": 0.875
+  },
+  "results": {
+    "factory-vga": {
+      "goal_successes": 58,
+      "goal_attempts": 64,
+      "goal_success_rate": 0.90625,
+      "survived_trials": 15,
+      "survival_rate": 0.9375,
+      "elapsed_wall_s": 125.7778009250178,
+      "camera": {
+        "profile": "factory-vga",
+        "projection_source": "Live SDK factory RGB intrinsics, serial 260322272638; pinhole simulation without raw image distortion",
+        "resolution": [
+          640,
+          480
+        ],
+        "centered_fov_deg": [
+          78.26031019352962,
+          62.89531632782771
+        ],
+        "K": [
+          [
+            393.3367614746094,
+            0.0,
+            322.73553466796875
+          ],
+          [
+            0.0,
+            392.4486999511719,
+            244.21871948242188
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_to_tag_rotation": [
+          [
+            2.567390744445674e-16,
+            -0.1045284632676533,
+            -0.9945218953682734
+          ],
+          [
+            -1.0,
+            -2.940356291780688e-16,
+            -2.1510571102112408e-16
+          ],
+          [
+            -2.610758831345095e-16,
+            0.9945218953682734,
+            -0.1045284632676533
+          ]
+        ],
+        "camera_origin_tag_m": [
+          -0.04136332189536827,
+          -0.00023385000000000015,
+          0.02724577153673233
+        ]
+      },
+      "usable_fraction": 0.814621409921671,
+      "longest_no_fresh_s": 25.950000000000003,
+      "incomplete_trials": [
+        {
+          "trial": 0,
+          "goals": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 11.200000000000001
+        },
+        {
+          "trial": 1,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": false,
+          "longest_no_fresh_s": 0.65
+        },
+        {
+          "trial": 4,
+          "goals": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 25.950000000000003
+        }
+      ]
+    },
+    "factory-wide": {
+      "goal_successes": 53,
+      "goal_attempts": 64,
+      "goal_success_rate": 0.828125,
+      "survived_trials": 13,
+      "survival_rate": 0.8125,
+      "elapsed_wall_s": 125.73515284899622,
+      "camera": {
+        "profile": "factory-wide",
+        "projection_source": "Live SDK factory RGB intrinsics, serial 260322272638; pinhole simulation without raw image distortion",
+        "resolution": [
+          848,
+          480
+        ],
+        "centered_fov_deg": [
+          88.41354041955704,
+          57.781910467494136
+        ],
+        "K": [
+          [
+            435.90570068359375,
+            0.0,
+            427.03155517578125
+          ],
+          [
+            0.0,
+            434.9215087890625,
+            244.67529296875
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_to_tag_rotation": [
+          [
+            2.567390744445674e-16,
+            -0.1045284632676533,
+            -0.9945218953682734
+          ],
+          [
+            -1.0,
+            -2.940356291780688e-16,
+            -2.1510571102112408e-16
+          ],
+          [
+            -2.610758831345095e-16,
+            0.9945218953682734,
+            -0.1045284632676533
+          ]
+        ],
+        "camera_origin_tag_m": [
+          -0.04136332189536827,
+          -0.00023385000000000015,
+          0.02724577153673233
+        ]
+      },
+      "usable_fraction": 0.8195374972984655,
+      "longest_no_fresh_s": 23.200000000000003,
+      "incomplete_trials": [
+        {
+          "trial": 4,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 20.6
+        },
+        {
+          "trial": 8,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": false,
+          "longest_no_fresh_s": 3.1500000000000004
+        },
+        {
+          "trial": 9,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 23.200000000000003
+        },
+        {
+          "trial": 12,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": false,
+          "longest_no_fresh_s": 4.2
+        },
+        {
+          "trial": 15,
+          "goals": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "survived": false,
+          "longest_no_fresh_s": 1.0
+        }
+      ]
+    },
+    "nominal-wide": {
+      "goal_successes": 50,
+      "goal_attempts": 64,
+      "goal_success_rate": 0.78125,
+      "survived_trials": 15,
+      "survival_rate": 0.9375,
+      "elapsed_wall_s": 135.2910606059595,
+      "camera": {
+        "profile": "nominal-wide",
+        "projection_source": "Theoretical 87x58 degree pinhole FOV at 848x480; not measured device calibration",
+        "resolution": [
+          848,
+          480
+        ],
+        "centered_fov_deg": [
+          87.0,
+          58.00000000000001
+        ],
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            432.97146126514167,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "camera_to_tag_rotation": [
+          [
+            2.567390744445674e-16,
+            -0.1045284632676533,
+            -0.9945218953682734
+          ],
+          [
+            -1.0,
+            -2.940356291780688e-16,
+            -2.1510571102112408e-16
+          ],
+          [
+            -2.610758831345095e-16,
+            0.9945218953682734,
+            -0.1045284632676533
+          ]
+        ],
+        "camera_origin_tag_m": [
+          -0.04136332189536827,
+          -0.00023385000000000015,
+          0.02724577153673233
+        ]
+      },
+      "usable_fraction": 0.6744909218577592,
+      "longest_no_fresh_s": 28.25,
+      "incomplete_trials": [
+        {
+          "trial": 0,
+          "goals": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 14.15
+        },
+        {
+          "trial": 4,
+          "goals": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 28.25
+        },
+        {
+          "trial": 7,
+          "goals": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "survived": false,
+          "longest_no_fresh_s": 5.6000000000000005
+        },
+        {
+          "trial": 8,
+          "goals": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 26.6
+        },
+        {
+          "trial": 11,
+          "goals": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 14.05
+        },
+        {
+          "trial": 12,
+          "goals": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 10.350000000000001
+        },
+        {
+          "trial": 15,
+          "goals": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "survived": true,
+          "longest_no_fresh_s": 23.8
+        }
+      ]
+    }
+  },
+  "scope": "Simulated pinhole RGB + encoder closed loop. Factory SDK queried remotely; raw lens distortion and real control latency not evaluated."
+}
